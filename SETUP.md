@@ -7,7 +7,7 @@ Base do projeto Mary's Wishlist com Vue 3, Vite e JavaScript. As dependências d
 No PowerShell, acesse a pasta do repositório:
 
 ```powershell
-cd "C:\Users\Maryana.Melo\Documents\Projetos\my-little-wishlist"
+cd "C:\Users\Maryana.Melo\OneDrive\Documentos\GitHub\Projetos\my-little-wishlist"
 code .
 ```
 
@@ -56,12 +56,8 @@ bun run preview
 
 `node_modules/` e `dist/` são ignorados pelo `.gitignore` existente.
 
-<<<<<<< HEAD
 A primeira versão da interface está implementada. Consulte `CATALOGO.md` para editar presentes, imagens e links. Consulte `README.md` para o mapa da documentação do projeto.
 
 ## Vue DevTools no desenvolvimento
 
 O Vue DevTools é carregado pelo servidor Vite somente em desenvolvimento. Inicie-o com `bun run dev`. Abra o dock pelo botão flutuante na página ou use **Alt+Shift+D**. No inspetor de componentes, ative a seleção visual (ícone de mira), clique em uma parte do site e selecione o componente identificado. Use **Open in editor** para abrir o arquivo `.vue` no VS Code. A configuração aponta para `code`; esse comando precisa estar no PATH. A seleção visual e a abertura do arquivo devem ser conferidas manualmente no navegador e no VS Code.
-=======
-A primeira versão da interface está implementada. Consulte `CATALOGO.md` para editar conteúdo, imagens e links. Consulte também `README.md` para o mapa da documentação do projeto.
->>>>>>> a34155437192c4da21d3a9fcc19e770d60b49990

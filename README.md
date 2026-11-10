@@ -4,7 +4,6 @@ Site pessoal de wishlist de aniversário, feito com Vue 3, Vite e JavaScript. O 
 
 ## Começar
 
-<<<<<<< HEAD
 Requer Bun instalado. No Windows PowerShell, na raiz do repositório:
 
 ```powershell
@@ -13,20 +12,11 @@ bun run dev
 ```
 
 Abra o endereço local mostrado pelo Vite, normalmente `http://localhost:5173`. Para gerar a versão de produção, use `bun run build`.
-=======
-Requer Node.js e npm. No Windows PowerShell, na raiz do repositório:
-
-```powershell
-npm.cmd install
-npm.cmd run dev
-```
-
-Abra o endereço local mostrado pelo Vite, normalmente `http://localhost:5173`. Para gerar a versão de produção, use `npm.cmd run build`.
->>>>>>> a34155437192c4da21d3a9fcc19e770d60b49990
 
 ## Documentação
 
 - [Guia de execução](SETUP.md): abrir no VS Code, iniciar o servidor e gerar o build.
+- [Guia para iniciantes](docs/GUIA_INICIANTE.md): entender componentes, props, ref, computed, filtros e dados.
 - [Catálogo](CATALOGO.md): cadastrar presentes, imagens, preferências, referências e links.
 - [Produto](docs/PRODUCT.md): público, escopo e requisitos atuais.
 - [Sistema visual](docs/DESIGN_SYSTEM.md): paleta, fontes e padrões da interface.
