@@ -65,6 +65,17 @@ Para produtos, preencha `productUrl`. Para experiências, use `experienceUrl` se
 ## Rodar e verificar
 
 ```powershell
+<<<<<<< HEAD
+bun run dev
+bun run build
+node --test
+```
+
+Após instalar novas dependências, reinicie o servidor Vite se ele já estava aberto: Ctrl+C e `bun run dev`.
+
+O projeto não contém backend, cadastro, pagamentos ou edição pública dos favoritos. Para atualizar a wishlist, edite os arquivos de dados.
+
+=======
 npm.cmd run dev
 npm.cmd run build
 node --test
@@ -73,3 +84,4 @@ node --test
 Após instalar novas dependências, reinicie o servidor Vite se ele já estava aberto: Ctrl+C e `npm.cmd run dev`.
 
 O projeto não contém backend, cadastro, pagamentos ou edição pública dos favoritos. Para atualizar a wishlist, edite os arquivos de dados.
+>>>>>>> a34155437192c4da21d3a9fcc19e770d60b49990

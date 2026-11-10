@@ -1,6 +1,6 @@
 # Ambiente de desenvolvimento
 
-Base do projeto Mary's Wishlist com Vue 3, Vite e JavaScript.
+Base do projeto Mary's Wishlist com Vue 3, Vite e JavaScript. As dependências do projeto são gerenciadas por Bun.
 
 ## Abrir no VS Code
 
@@ -11,60 +11,57 @@ cd "C:\Users\Maryana.Melo\Documents\Projetos\my-little-wishlist"
 code .
 ```
 
-Se `code` não for reconhecido, abra o VS Code e use **Arquivo > Abrir Pasta** para selecionar essa mesma pasta.
+Se `code` não for reconhecido, abra o VS Code e use **Arquivo > Abrir Pasta** para selecionar essa pasta.
 
 ## Executar localmente
 
-No VS Code, abra **Terminal > Novo Terminal** e use PowerShell na raiz do projeto:
+No terminal do VS Code, na raiz do projeto:
 
 ```powershell
-npm.cmd run dev
+bun run dev
 ```
 
-Abra no navegador o endereço mostrado no terminal (normalmente http://localhost:5173).
-Mantenha o terminal aberto enquanto desenvolve. Para parar o servidor, pressione **Ctrl+C**.
-
-Se `npm.cmd` não for reconhecido, feche e abra novamente o VS Code após a instalação do Node.js.
-Como alternativa, adicione a instalação existente ao PATH apenas do terminal atual:
-
-```powershell
-$env:Path = "C:\Program Files\nodejs;" + $env:Path
-npm.cmd run dev
-```
+Abra o endereço mostrado pelo Vite (normalmente http://localhost:5173). Para parar o servidor, pressione **Ctrl+C**. Se `bun` não for reconhecido, instale Bun e reinicie o terminal.
 
 ## Dependências e build
 
-As dependências já foram instaladas durante a configuração. Em uma nova cópia do repositório com o arquivo `package-lock.json`, execute:
+Em uma cópia nova do repositório, instale as versões fixadas no lockfile Bun:
 
 ```powershell
-npm.cmd ci
+bun install --frozen-lockfile
 ```
 
-Para gerar os arquivos de produção em `dist/`:
+Para gerar a versão de produção em `dist/`:
 
 ```powershell
-npm.cmd run build
+bun run build
 ```
 
-Para conferir o resultado do build localmente:
+Para conferir o build localmente:
 
 ```powershell
-npm.cmd run preview
+bun run preview
 ```
 
 ## Estrutura
 
 - `index.html`: página de entrada do Vite.
-- `vite.config.js`: configuração do Vite e suporte aos componentes Vue.
+- `vite.config.js`: configuração do Vite, plugin Vue e integração do Vue DevTools durante o desenvolvimento.
 - `src/main.js`: inicialização da aplicação.
 - `src/App.vue`: montagem do header, hero, catálogo e rodapé.
 - `src/components/`: componentes Vue da interface.
 - `src/assets/`: fontes importadas e estilos organizados por área.
 - `public/`: arquivos estáticos servidos diretamente.
-- `package.json`: scripts e dependências.
-- `package-lock.json`: versões fixadas das dependências instaladas.
+- `package.json` e `bun.lock`: dependências e versões fixadas.
 
-Os arquivos `.gitkeep` apenas permitem que pastas inicialmente vazias sejam incluídas no Git.
-`node_modules/` e `dist/` já estão ignorados pelo `.gitignore` existente.
+`node_modules/` e `dist/` são ignorados pelo `.gitignore` existente.
 
+<<<<<<< HEAD
+A primeira versão da interface está implementada. Consulte `CATALOGO.md` para editar presentes, imagens e links. Consulte `README.md` para o mapa da documentação do projeto.
+
+## Vue DevTools no desenvolvimento
+
+O Vue DevTools é carregado pelo servidor Vite somente em desenvolvimento. Inicie-o com `bun run dev`. Abra o dock pelo botão flutuante na página ou use **Alt+Shift+D**. No inspetor de componentes, ative a seleção visual (ícone de mira), clique em uma parte do site e selecione o componente identificado. Use **Open in editor** para abrir o arquivo `.vue` no VS Code. A configuração aponta para `code`; esse comando precisa estar no PATH. A seleção visual e a abertura do arquivo devem ser conferidas manualmente no navegador e no VS Code.
+=======
 A primeira versão da interface está implementada. Consulte `CATALOGO.md` para editar conteúdo, imagens e links. Consulte também `README.md` para o mapa da documentação do projeto.
+>>>>>>> a34155437192c4da21d3a9fcc19e770d60b49990
