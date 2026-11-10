@@ -26,7 +26,7 @@ const entries = [
   {
     "id": "fone-de-ouvido",
     "type": "product",
-    "title": "Fone de ouvido",
+    "title": "AirPods Pro 3",
     "description": "Uma pausa no mundo, com a minha playlist favorita.",
     "category": "eletronicos",
     "favorite": true,
@@ -35,8 +35,8 @@ const entries = [
       "música",
       "headphone"
     ],
-    "image": "/images/fone-editorial.png",
-    "imageAlt": "Fotografia ilustrativa: fone de ouvido"
+    "image": "/images/fone-airpods.png",
+    "imageAlt": "AirPods brancos com estojo de carregamento aberto"
   },
   {
     "id": "perfume",
@@ -68,17 +68,22 @@ const entries = [
   },
   {
     "id": "cardigan",
-    "type": "open",
-    "title": "Cardigan aconchegante",
-    "description": "Para os dias fresquinhos e cafés demorados.",
+    "type": "product",
+    "title": "Vestido amarelo manteiga",
+    "description": "Siren Gaze Vestido Feminino Elegante de Verão Amarelo - SHEIN Tamanho PP/XS",
     "category": "roupas",
     "favorite": true,
     "tags": [
-      "tricô",
-      "casaco"
+      "vestido",
+      "amarelo manteiga",
+      "siren gaze",
+      "shein",
+      "tamanho PP",
+      "XS"
     ],
-    "image": "/images/cardigan.jpg",
-    "imageAlt": "Fotografia ilustrativa: cardigan aconchegante",
+    "image": "/images/vestido-amarelo-manteiga.png",
+    "imageAlt": "Vestido amarelo manteiga com gola ampla e botões dourados",
+    "productUrl": "https://onelink.shein.com/60/67tm5q6kovca?shc=2_RdFb4LZ5xTg",
     "preferences": {
       "colors": [
         "Creme",
@@ -92,17 +97,22 @@ const entries = [
   },
   {
     "id": "sapatilha",
-    "type": "open",
-    "title": "Sapatilha clássica",
-    "description": "Um modelo delicado para acompanhar o dia a dia.",
+    "type": "product",
+    "title": "Adidas Samba Og Maroon Cream White Bordô",
+    "description": "Tamanho 36",
     "category": "sapatos",
-    "favorite": false,
+    "favorite": true,
     "tags": [
-      "sapatilha",
-      "bailarina"
+      "adidas",
+      "samba",
+      "maroon",
+      "cream",
+      "white",
+      "bordô"
     ],
-    "image": "/images/sapatilha.jpg",
-    "imageAlt": "Fotografia ilustrativa: sapatilha clássica"
+    "image": "/images/adidas-samba-og-maroon-cream-white.png",
+    "imageAlt": "Tênis Adidas Samba OG em bordô e branco, visto de lado",
+    "imageFit": "contain"
   },
   {
     "id": "colar",
@@ -167,49 +177,59 @@ const entries = [
   {
     "id": "vestido",
     "type": "open",
-    "title": "Vestido em tom de vinho",
-    "description": "Linhas simples, tecido leve e um caimento bonito.",
+    "title": "Calça Branca Jeans/Alfaiataria",
+    "description": "Tamanho 34",
     "category": "roupas",
-    "favorite": false,
+    "favorite": true,
     "tags": [
-      "vestido",
-      "borgonha"
+      "calça",
+      "branca",
+      "jeans",
+      "alfaiataria",
+      "tamanho 34"
     ],
-    "image": "/images/vestido.jpg",
-    "imageAlt": "Fotografia ilustrativa: vestido em tom de vinho"
+    "image": "/images/calca-branca-jeans-alfaiataria.png",
+    "imageAlt": "Pessoa usando calça branca de perna ampla e blusa de poás bordô"
   },
   {
     "id": "tenis",
-    "type": "open",
-    "title": "Tênis para todos os dias",
-    "description": "Confortável, discreto e fácil de combinar.",
+    "type": "product",
+    "title": "Nike Dunk Low Cacao Wow",
+    "description": "Tamanho 36",
     "category": "sapatos",
-    "favorite": false,
+    "favorite": true,
     "tags": [
       "tênis",
       "conforto"
     ],
-    "image": "/images/tenis.jpg",
-    "imageAlt": "Fotografia ilustrativa: tênis para todos os dias"
+    "image": "/images/nike-dunk-low-cacao-wow.png",
+    "imageAlt": "Tênis Nike Dunk Low Cacao Wow branco e marrom, visto de lado",
+    "imageFit": "contain"
   },
   {
-    "id": "batom",
+    "id": "lapis-olhos-contem1g",
     "type": "product",
-    "title": "Batom rosado",
-    "description": "Um toque de cor suave, daqueles que vão com tudo.",
+    "title": "Lápis Para Olhos Contém1g - Cobre Marinho E Vinho",
+    "description": "O tom vinho é o meu favorito e o que eu mais gostaria de ganhar; cobre e marinho também são lindos.",
     "category": "beleza",
     "favorite": true,
     "tags": [
-      "batom",
+      "lápis para olhos",
+      "lápis",
+      "contém1g",
+      "cobre",
+      "marinho",
+      "vinho",
       "maquiagem"
     ],
-    "image": "/images/batom.jpg",
-    "imageAlt": "Fotografia ilustrativa: batom rosado"
+    "image": "/images/lapis-olhos-contem1g.png",
+    "imageAlt": "Três lápis para olhos Contém1g nas cores marinho, cobre e vinho",
+    "imageFit": "contain"
   },
   {
     "id": "camera",
     "type": "product",
-    "title": "Câmera instantânea",
+    "title": "iPhone 17 PRO/PRO MAX 256GB",
     "description": "Para guardar momentos fora da tela também.",
     "category": "eletronicos",
     "favorite": false,
@@ -218,8 +238,8 @@ const entries = [
       "câmera",
       "fotografia"
     ],
-    "image": "/images/camera.jpg",
-    "imageAlt": "Fotografia ilustrativa: câmera instantânea"
+    "image": "/images/iphone-17-pro-pro-max.png",
+    "imageAlt": "iPhone em azul, prata e laranja, em vistas frontal e traseira"
   },
   {
     "id": "vela",
@@ -267,30 +287,37 @@ const entries = [
   {
     "id": "camisa",
     "type": "open",
-    "title": "Camisa de linho",
-    "description": "Leve, atemporal e com aquele ar descomplicado.",
+    "title": "Camisa social branca",
+    "description": "Tamanho PP",
     "category": "roupas",
-    "favorite": false,
+    "favorite": true,
     "tags": [
-      "linho",
-      "camisa"
+      "camisa",
+      "social",
+      "branca",
+      "tamanho PP"
     ],
-    "image": "/images/camisa.jpg",
-    "imageAlt": "Fotografia ilustrativa: camisa de linho"
+    "image": "/images/camisa-social-branca.png",
+    "imageAlt": "Pessoa usando camisa social branca e calça jeans, sentada em um café"
   },
   {
     "id": "sandalia",
-    "type": "open",
-    "title": "Sandália minimalista",
-    "description": "Tiras delicadas e um salto confortável.",
+    "type": "product",
+    "title": "TÊNIS HANDBALL SPEZIAL",
+    "description": "Tamanho 36",
     "category": "sapatos",
-    "favorite": false,
+    "favorite": true,
     "tags": [
-      "sandália",
-      "salto"
+      "adidas",
+      "handball spezial",
+      "handball",
+      "spezial",
+      "bordô",
+      "tênis"
     ],
-    "image": "/images/sandalia.jpg",
-    "imageAlt": "Fotografia ilustrativa: sandália minimalista"
+    "image": "/images/adidas-handball-spezial.png",
+    "imageAlt": "Tênis Adidas Handball Spezial vinho e creme, visto de lado",
+    "imageFit": "contain"
   },
   {
     "id": "brincos",
@@ -382,16 +409,17 @@ const entries = [
   {
     "id": "pijama",
     "type": "open",
-    "title": "Pijama macio",
-    "description": "Conforto para uma noite de filme e descanso.",
+    "title": "Calça Poá",
+    "description": "Tamanho 34",
     "category": "roupas",
     "favorite": false,
     "tags": [
-      "pijama",
-      "conforto"
+      "calça",
+      "poá",
+      "tamanho 34"
     ],
-    "image": "/images/pijama.jpg",
-    "imageAlt": "Fotografia ilustrativa: pijama macio"
+    "image": "/images/calca-poa.png",
+    "imageAlt": "Calça branca com estampa de poás pretos"
   },
   {
     "id": "bota",
@@ -495,17 +523,22 @@ const entries = [
   },
   {
     "id": "sueter",
-    "type": "open",
-    "title": "Suéter em tom creme",
-    "description": "Tricô leve, modelagem soltinha e muito conforto.",
+    "type": "product",
+    "title": "Jaqueta marrom couro",
+    "description": "DAZY Jaqueta de Couro PU Feminina - SHEIN - Tamanho XS",
     "category": "roupas",
     "favorite": false,
     "tags": [
-      "suéter",
-      "tricô"
+      "dazy",
+      "jaqueta",
+      "marrom",
+      "couro",
+      "PU",
+      "XS"
     ],
-    "image": "/images/sueter.jpg",
-    "imageAlt": "Fotografia ilustrativa: suéter em tom creme"
+    "image": "/images/jaqueta-marrom-couro.png",
+    "imageAlt": "Jaqueta marrom de couro PU usada sobre uma blusa preta",
+    "productUrl": "https://onelink.shein.com/60/67tne2ekt99q?shc=2_RdFt1f9CNET"
   },
   {
     "id": "mocassim",
@@ -595,7 +628,7 @@ const entries = [
 ]
 
 const notesByType = {
-  product: 'Modelo demonstrativo: a marca e o link do produto ainda serão escolhidos.',
+  product: 'O link do produto ainda será escolhido.',
   experience: 'Uma ideia para vivermos juntos. Podemos combinar o lugar e a data depois.',
   open: 'Uma inspiração, sem marca ou modelo obrigatório. As preferências serão confirmadas pela dona da wishlist.',
 }

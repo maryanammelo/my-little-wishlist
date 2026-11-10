@@ -21,7 +21,6 @@ function open(gift, element) { opener.value = element; selected.value = gift }
     <WishlistSearch v-model="query" />
     <div v-if="filtered.length" class="gift-grid"><GiftCard v-for="(gift, index) in filtered" :key="gift.id" :gift="gift" :index="index" @open="open" /></div>
     <div v-else class="empty-state"><SearchX :size="36" aria-hidden="true" /><h3>{{ site.emptyMessage }}</h3><p>Que tal tentar outra palavra ou explorar toda a lista?</p><button class="action-button" @click="reset">Limpar busca e filtros</button></div>
-    <p class="demo-notice">{{ site.demoNotice }}</p>
     <GiftDetailsModal :gift="selected" :opener="opener" @close="selected = null" />
   </section>
 </template>

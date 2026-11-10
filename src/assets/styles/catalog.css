@@ -137,6 +137,11 @@
   object-position: var(--image-position, center);
 }
 
+.gift-image-button img.image-contain, .modal-image img.image-contain {
+  object-fit: contain;
+  background: #fff;
+}
+
 .gift-image-button img {
   transition: transform 0.45s;
 }
@@ -271,14 +276,6 @@
   margin-top: 5px;
 }
 
-.demo-notice {
-  text-align: center;
-  color: var(--muted);
-  font-size: 12px;
-  line-height: 1.7;
-  margin: 30px auto 0;
-  max-width: 480px;
-}
 
 @media (min-width: 400px) {
   .gift-grid {
