@@ -1,1 +1,4 @@
-/* Estilos globais serão adicionados durante o desenvolvimento da interface. */
+@import './styles/tokens.css';
+@import './styles/layout.css';
+@import './styles/catalog.css';
+@import './styles/modal.css';

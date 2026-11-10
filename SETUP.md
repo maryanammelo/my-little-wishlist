@@ -7,7 +7,7 @@ Base do projeto Mary's Wishlist com Vue 3, Vite e JavaScript.
 No PowerShell, acesse a pasta do repositório:
 
 ```powershell
-cd "C:\Users\Maryana.Melo\OneDrive\Documentos\Projetos\my-little-wishlist"
+cd "C:\Users\Maryana.Melo\Documents\Projetos\my-little-wishlist"
 code .
 ```
 
@@ -57,9 +57,9 @@ npm.cmd run preview
 - `index.html`: página de entrada do Vite.
 - `vite.config.js`: configuração do Vite e suporte aos componentes Vue.
 - `src/main.js`: inicialização da aplicação.
-- `src/App.vue`: componente principal, com uma mensagem provisória de configuração.
-- `src/components/`: futuros componentes reutilizáveis `.vue`.
-- `src/assets/`: estilos e arquivos processados pelo Vite.
+- `src/App.vue`: montagem do header, hero, catálogo e rodapé.
+- `src/components/`: componentes Vue da interface.
+- `src/assets/`: fontes importadas e estilos organizados por área.
 - `public/`: arquivos estáticos servidos diretamente.
 - `package.json`: scripts e dependências.
 - `package-lock.json`: versões fixadas das dependências instaladas.
@@ -67,4 +67,4 @@ npm.cmd run preview
 Os arquivos `.gitkeep` apenas permitem que pastas inicialmente vazias sejam incluídas no Git.
 `node_modules/` e `dist/` já estão ignorados pelo `.gitignore` existente.
 
-A interface da wishlist ainda não foi implementada.
+A primeira versão da interface está implementada. Consulte `CATALOGO.md` para editar conteúdo, imagens e links. Consulte também `README.md` para o mapa da documentação do projeto.
