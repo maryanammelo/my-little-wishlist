@@ -8,7 +8,7 @@ Apresentar uma wishlist pessoal de aniversário para amigos e familiares. Visita
 
 ## Experiência
 
-A página única reúne header, hero editável, catálogo, filtros, busca, modal de detalhes e footer. A experiência cobre três tipos de presente: produto específico, sugestão aberta e experiência. Os cards seguem a ordem vertical imagem, categoria, título, descrição e ação aplicável.
+A página única reúne header, hero editável, catálogo, filtros, busca, modal de detalhes e footer. A experiência cobre três tipos de presente: produto específico, sugestão aberta e experiência. Os cards apresentam imagem, título, descrição e ação aplicável. A categoria continua nos dados e nos filtros e aparece no modal de detalhes.
 
 Busca por título, descrição e palavras-chave ignora caixa e acentos e combina com uma categoria e o filtro Todos ou Favoritos. Sem correspondências, a interface mostra uma opção para limpar os filtros.
 

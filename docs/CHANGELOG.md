@@ -11,6 +11,11 @@ Alterações relevantes verificadas neste repositório. Este histórico é edito
 
 ## Esta atualização
 
+- 2026-11-10 — Removidos marcadores de conflito que impediam o build, mantendo o conteúdo HEAD alinhado às decisões aprovadas; instruções de uso adotam Bun.
+- Catálogo reorganizado em objetos com campos nomeados; comparação confirmou os 40 presentes e seus campos funcionais. Campos de URL de fotos antigas sem uso no app foram retirados.
+- CSS de catálogo e modal reformatado sem alterar seletores, declarações, breakpoints ou valores visuais. Criado o guia Vue para iniciantes e alinhada a documentação de cards.
+- Verificação após a refatoração: `bun run build` aprovado; `node --test` passou nos cinco testes existentes; `git diff --check` sem erros.
+
 - README passou a apresentar os comandos iniciais e o mapa da documentação.
 - Guia SETUP atualizado para o caminho local confirmado e para a estrutura Vue já implementada.
 - Criados os registros de produto, sistema visual, decisões, pendências e alterações. Estados e limitações foram descritos de acordo com a implementação verificada e o briefing aprovado.

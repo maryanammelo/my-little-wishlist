@@ -50,7 +50,7 @@ onBeforeUnmount(() => { if (props.gift) restore() })
       <div v-if="gift" class="modal-backdrop" @click.self="close">
         <section ref="dialog" class="gift-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
           <button ref="closeButton" class="modal-close icon-button" aria-label="Fechar detalhes" @click="close"><X :size="22" aria-hidden="true" /></button>
-          <div class="modal-image"><GiftImage :src="gift.image" :alt="gift.imageAlt" eager /></div>
+          <div class="modal-image"><GiftImage :src="gift.image" :alt="gift.imageAlt" :fit="gift.imageFit" eager /></div>
           <div class="modal-content">
             <p class="category-label">{{ categoryLabel(gift.category) }}</p>
             <span v-if="gift.favorite" class="modal-favorite"><Heart :size="15" aria-hidden="true" /> Entre os meus favoritos</span>

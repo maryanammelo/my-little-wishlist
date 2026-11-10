@@ -2,7 +2,6 @@
 import { computed } from 'vue'
 import { ArrowUpRight, Heart } from '@lucide/vue'
 import GiftImage from './GiftImage.vue'
-import { categoryLabel } from '../data/categories'
 import { externalAction } from '../utils/giftLinks'
 const props = defineProps({ gift: Object, index: Number })
 defineEmits(['open'])
@@ -13,11 +12,11 @@ const hasReferences = computed(() => props.gift.type === 'open' && props.gift.re
 <template>
   <article class="gift-card">
     <button class="gift-image-button" :aria-label="`Ver detalhes de ${gift.title}`" @click="$emit('open', gift, $event.currentTarget)">
-      <GiftImage :src="gift.image" :alt="gift.imageAlt" :eager="index < 4" />
+      <GiftImage :src="gift.image" :alt="gift.imageAlt" :eager="index < 4" :fit="gift.imageFit" />
       <span v-if="gift.favorite" class="favorite-badge"><Heart :size="15" aria-hidden="true" /> Favorito</span>
     </button>
     <div class="gift-card-body">
-      <p class="category-label">{{ categoryLabel(gift.category) }}</p>
+
       <h3><button @click="$emit('open', gift, $event.currentTarget)">{{ gift.title }}</button></h3>
       <p class="gift-description">{{ gift.description }}</p>
       <button v-if="hasReferences" class="action-button" @click="$emit('open', gift, $event.currentTarget)">Ver referências <ArrowUpRight :size="18" aria-hidden="true" /></button>
