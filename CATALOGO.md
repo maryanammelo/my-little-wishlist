@@ -31,7 +31,7 @@ Edite `entries` em `src/data/gifts.js`. Cada item é um objeto com campos nomead
 
 ## Imagens e referências
 
-Coloque imagens autorizadas em `public/images/` e informe o caminho começando em `/images/`. Use nomes únicos, prefira arquivos otimizados e mantenha a proporção vertical 4:5. `imageAlt` deve descrever a imagem. Se uma imagem não carregar, o card mostra uma alternativa visual.
+Coloque imagens autorizadas em `public/images/` e informe o caminho começando em `/images/`. Use nomes únicos, prefira arquivos otimizados e mantenha a proporção vertical 4:5. `imageAlt` deve descrever a imagem. Se uma imagem não carregar, o card mostra uma alternativa visual. Enquanto não houver foto, use `image: null` para exibir esse espaço reservado.
 
 Sugestões abertas recebem por padrão uma referência baseada na imagem principal. Para usar outras inspirações, adicione `references` ao presente:
 

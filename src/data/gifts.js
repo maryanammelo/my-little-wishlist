@@ -52,8 +52,9 @@ const entries = [
       "flores",
       "buquê"
     ],
-    "image": "/images/flores.jpg",
-    "imageAlt": "Fotografia ilustrativa: um buquê de flores"
+    "image": "/images/buque-de-flores-referencias.png",
+    "imageAlt": "Colagem com quatro buquês em estilos e combinações de cores diferentes",
+    "imageFit": "contain"
   },
   {
     "id": "cardigan",
@@ -164,14 +165,15 @@ const entries = [
       "restaurante",
       "experiência"
     ],
-    "image": "/images/jantar.jpg",
-    "imageAlt": "Fotografia ilustrativa: jantar especial"
+    "image": "/images/jantar-especial-sushi.png",
+    "imageAlt": "Prato com uma seleção variada de sushi e sashimi",
+    "imageFit": "contain"
   },
   {
     "id": "vestido",
     "type": "open",
     "title": "Calça Branca Jeans/Alfaiataria",
-    "description": "Tamanho 34",
+    "description": "Modelo Wide leg ou Reta - Tamanho 34",
     "category": "roupas",
     "favorite": true,
     "tags": [
@@ -334,17 +336,14 @@ const entries = [
   {
     "id": "skincare",
     "type": "open",
-    "title": "Um ritual de cuidado",
-    "description": "Texturas leves para um momento só meu.",
+    "title": "Mascavo Bronzer cor: Sunset",
+    "description": "Mascavo Summer Glow Bronzer Sunset 8g",
     "category": "beleza",
     "favorite": false,
-    "tags": [
-      "skincare",
-      "pele",
-      "creme"
-    ],
-    "image": "/images/skincare.jpg",
-    "imageAlt": "Fotografia ilustrativa: um ritual de cuidado"
+    "tags": ["bronzer", "mascavo", "sunset", "bronzeador"],
+    "image": "/images/mascavo-bronzer-sunset.png",
+    "imageAlt": "Bronzer compacto Mascavo Summer Glow na cor Sunset em estojo aberto",
+    "imageFit": "contain"
   },
   {
     "id": "caixa-som",
@@ -545,16 +544,17 @@ const entries = [
   {
     "id": "mocassim",
     "type": "open",
-    "title": "Mocassim atemporal",
-    "description": "Para deixar os looks simples mais especiais.",
+    "title": "Bota Preta Cano Longo",
+    "description": "Tamanho 36",
     "category": "sapatos",
     "favorite": false,
     "tags": [
-      "mocassim",
-      "sapato"
+      "bota",
+      "bota preta"
     ],
-    "image": "/images/mocassim.jpg",
-    "imageAlt": "Fotografia ilustrativa: mocassim atemporal"
+    "image": "/images/bota-preta-cano-longo.png",
+    "imageAlt": "Bota preta de cano longo com salto baixo e detalhe dourado",
+    "imageFit": "contain"
   },
   {
     "id": "relogio",
@@ -573,16 +573,14 @@ const entries = [
   {
     "id": "necessaire",
     "type": "open",
-    "title": "Nécessaire de viagem",
-    "description": "Tudo no lugar, com um toque de delicadeza.",
+    "title": "Kit Wella Fusion Shampoo e Condicionador",
+    "description": "Um duo para transformar o cuidado dos fios em um ritual especial, com shampoo e condicionador.",
     "category": "beleza",
     "favorite": false,
-    "tags": [
-      "nécessaire",
-      "viagem"
-    ],
-    "image": "/images/necessaire.jpg",
-    "imageAlt": "Fotografia ilustrativa: nécessaire de viagem"
+    "tags": ["wella", "fusion", "shampoo", "condicionador", "cabelos"],
+    "image": "/images/wella-fusion-duo.png",
+    "imageAlt": "Kit Wella Professionals Fusion com shampoo e condicionador",
+    "imageFit": "contain"
   },
   {
     "id": "luminaria",
@@ -639,6 +637,67 @@ const entries = [
     "imageAlt": "Calça jeans marrom de cintura alta e modelagem ampla",
     "imageFit": "contain",
     "productUrl": "https://www.zara.com/br/pt/jeans-zw-collection-wide-leg-cintura-alta-p08307251.html?v1=557198531&utm_campaign=productShare&utm_medium=mobile_sharing_iOS&utm_source=red_social_movil"
+  },
+  {
+    "id": "vestido-preto-cea",
+    "type": "product",
+    "title": "Vestido preto",
+    "description": "Tamanho PP",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["vestido", "preto", "renda", "cea", "tamanho PP"],
+    "image": "/images/vestido-preto-cea.png",
+    "imageAlt": "Vestido preto curto de gola alta e sem mangas, usado por uma modelo",
+    "imageFit": "contain",
+    "productUrl": "https://www.cea.com.br/vestido-curto-feminino-com-renda-frente-unica-preto-1114486-preto/p"
+  },
+  {
+    "id": "roupas-bordo-borgonha",
+    "type": "open",
+    "title": "Roupas Bordô ou Borgonha",
+    "description": "Qualquer peça de roupa nessa cor, eu iria amar!",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["roupas", "bordô", "borgonha", "vinho"],
+    "image": "/images/roupas-bordo-borgonha.png",
+    "imageAlt": "Colagem de roupas, sapatos e acessórios em tons bordô e borgonha",
+    "imageFit": "contain"
+  },
+  {
+    "id": "sandalia-prata",
+    "type": "open",
+    "title": "Sandalia Prata",
+    "description": "Tamanho 36",
+    "category": "sapatos",
+    "favorite": false,
+    "tags": ["sandália", "prata", "sapatos", "tamanho 36"],
+    "image": "/images/sandalia-prata.png",
+    "imageAlt": "Colagem de sandálias prateadas em diferentes estilos",
+    "imageFit": "contain"
+  },
+  {
+    "id": "bolsa-dourada",
+    "type": "open",
+    "title": "Bolsa Dourada",
+    "description": "Uma bolsa metalizada para dar um toque de brilho e elegância aos looks.",
+    "category": "acessorios",
+    "favorite": false,
+    "tags": ["bolsa", "dourada", "metalizada", "acessórios"],
+    "image": "/images/bolsa-dourada.png",
+    "imageAlt": "Colagem de bolsas metalizadas em dourado e prata, em diferentes modelos",
+    "imageFit": "contain"
+  },
+  {
+    "id": "wella-oil-reflections-duo",
+    "type": "open",
+    "title": "Kit Wella Professionals Oil Reflections Duo",
+    "description": "Um duo de shampoo e condicionador para deixar o cuidado dos fios ainda mais especial, com brilho e leveza.",
+    "category": "beleza",
+    "favorite": false,
+    "tags": ["wella", "oil reflections", "shampoo", "condicionador", "cabelos"],
+    "image": "/images/wella-oil-reflections-duo.png",
+    "imageAlt": "Kit Wella Professionals Oil Reflections com shampoo e condicionador",
+    "imageFit": "contain"
   }
 ]
 

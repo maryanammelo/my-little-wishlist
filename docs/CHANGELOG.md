@@ -11,6 +11,8 @@ Alterações relevantes verificadas neste repositório. Este histórico é edito
 
 ## Esta atualização
 
+- Adicionado o 42º presente: Vestido preto tamanho PP, com link da C&A e espaço reservado para foto.
+
 - Adicionado o 41º presente ao catálogo: Calça marrom tamanho 34, com foto e link da Zara.
 
 - 2026-11-10 — Removidos marcadores de conflito que impediam o build, mantendo o conteúdo HEAD alinhado às decisões aprovadas; instruções de uso adotam Bun.
@@ -21,3 +23,9 @@ Alterações relevantes verificadas neste repositório. Este histórico é edito
 - README passou a apresentar os comandos iniciais e o mapa da documentação.
 - Guia SETUP atualizado para o caminho local confirmado e para a estrutura Vue já implementada.
 - Criados os registros de produto, sistema visual, decisões, pendências e alterações. Estados e limitações foram descritos de acordo com a implementação verificada e o briefing aprovado.
+
+- Adicionado o 43º presente: Roupas Bordô ou Borgonha, na categoria Roupas.
+
+- Adicionado o 44º presente: Sandalia Prata, tamanho 36, na categoria Sapatos.
+- Adicionado o 45º presente: Bolsa Dourada, na categoria Acessórios.
+- Adicionado o 46º presente: Kit Wella Professionals Oil Reflections Duo, na categoria Beleza.
