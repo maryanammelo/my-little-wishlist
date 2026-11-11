@@ -1,27 +1,16 @@
 // Conteúdo demonstrativo. Substitua por suas próprias escolhas e fotos autorizadas.
 const entries = [
-  {
+    {
     "id": "bolsa-borgonha",
-    "type": "open",
-    "title": "Bolsa borgonha",
-    "description": "Pequena, delicada e com espaço para o essencial.",
+    "type": "product",
+    "title": "Relógio Boxy Romain Prata SaintGermain",
+    "description": "Ainda não sei.",
     "category": "acessorios",
-    "favorite": true,
-    "tags": [
-      "bolsa",
-      "vinho"
-    ],
-    "image": "/images/bolsa-editorial.png",
-    "imageAlt": "Fotografia ilustrativa: bolsa borgonha",
-    "preferences": {
-      "colors": [
-        "Borgonha",
-        "Vinho"
-      ],
-      "styles": [
-        "Minimalista"
-      ]
-    }
+    "favorite": false,
+    "tags": ["relógio", "boxy", "romain", "prata", "saintgermain"],
+    "image": "/images/relogio-boxy-romain-prata.png",
+    "imageAlt": "Relógio de caixa quadrada prateada com pulseira metálica",
+    "productUrl": "https://vt.tiktok.com/ZS9f5cdcSseRG-rx7vY/"
   },
   {
     "id": "fone-de-ouvido",
@@ -116,18 +105,22 @@ const entries = [
   },
   {
     "id": "colar",
-    "type": "open",
-    "title": "Colar dourado",
-    "description": "Corrente fininha com um detalhe especial.",
+    "type": "product",
+    "title": "Relógio Saint Germain Mini Belle Bicolor Gold 24mm",
+    "description": "Ainda não sei.",
     "category": "acessorios",
-    "favorite": true,
+    "favorite": false,
     "tags": [
-      "joia",
-      "colar",
-      "dourado"
+      "relógio",
+      "saint germain",
+      "mini belle",
+      "bicolor",
+      "gold",
+      "24mm"
     ],
-    "image": "/images/colar.jpg",
-    "imageAlt": "Fotografia ilustrativa: colar dourado"
+    "image": "/images/relogio-saint-germain.png",
+    "imageAlt": "Relógio Saint Germain Mini Belle bicolor com pulseira prateada e dourada",
+    "productUrl": "https://vt.tiktok.com/ZS9f5vd1W9rmb-14z3q/"
   },
   {
     "id": "ceramica",
@@ -321,17 +314,22 @@ const entries = [
   },
   {
     "id": "brincos",
-    "type": "open",
-    "title": "Brincos pequenos",
-    "description": "Um par dourado, discreto e cheio de charme.",
+    "type": "product",
+    "title": "Relógio Boxy Bicolor Quadrado Dourado e Prata",
+    "description": "Ainda não sei.",
     "category": "acessorios",
-    "favorite": true,
+    "favorite": false,
     "tags": [
-      "brinco",
-      "joias"
+      "relógio",
+      "boxy",
+      "bicolor",
+      "quadrado",
+      "dourado",
+      "prata"
     ],
-    "image": "/images/brincos.jpg",
-    "imageAlt": "Fotografia ilustrativa: brincos pequenos"
+    "image": "/images/relogio-boxy-bicolor.png",
+    "imageAlt": "Relógio de caixa quadrada bicolor dourada e prateada",
+    "productUrl": "https://vt.tiktok.com/ZS9f5v7hYR5VS-biV9B/"
   },
   {
     "id": "skincare",
@@ -423,17 +421,21 @@ const entries = [
   },
   {
     "id": "bota",
-    "type": "open",
-    "title": "Bota de cano curto",
-    "description": "Um clássico para os dias de outono.",
+    "type": "product",
+    "title": "Tênis Nike Air Max 90",
+    "description": "Tamanho 36",
     "category": "sapatos",
     "favorite": false,
     "tags": [
-      "bota",
-      "outono"
+      "nike",
+      "air max 90",
+      "tênis",
+      "tamanho 36"
     ],
-    "image": "/images/bota.jpg",
-    "imageAlt": "Fotografia ilustrativa: bota de cano curto"
+    "image": "/images/nike-air-max-90.png",
+    "imageAlt": "Tênis Nike Air Max 90 branco e rosa, visto de lado",
+    "imageFit": "contain",
+    "productUrl": "https://www.nike.com.br/tenis-nike-air-max-90-feminino-080182.html?cor=56"
   },
   {
     "id": "lenco",
@@ -624,6 +626,19 @@ const entries = [
     ],
     "image": "/images/piquenique.jpg",
     "imageAlt": "Fotografia ilustrativa: piquenique no parque"
+  },
+  {
+    "id": "calca-marrom-zara",
+    "type": "product",
+    "title": "Calça marrom",
+    "description": "Tamanho 34",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["calça", "marrom", "zara", "jeans", "wide leg", "tamanho 34"],
+    "image": "/images/calca-marrom-zara.png",
+    "imageAlt": "Calça jeans marrom de cintura alta e modelagem ampla",
+    "imageFit": "contain",
+    "productUrl": "https://www.zara.com/br/pt/jeans-zw-collection-wide-leg-cintura-alta-p08307251.html?v1=557198531&utm_campaign=productShare&utm_medium=mobile_sharing_iOS&utm_source=red_social_movil"
   }
 ]
 
@@ -644,5 +659,5 @@ export const gifts = entries.map((gift) => ({
   experienceUrl: gift.experienceUrl ?? null,
   store: gift.store ?? null,
   price: gift.price ?? null,
-  notes: gift.notes ?? notesByType[gift.type],
+  notes: gift.notes ?? (gift.productUrl ? 'Link do produto disponível.' : notesByType[gift.type]),
 }))

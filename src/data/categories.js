@@ -8,4 +8,6 @@ export const categories = [
   { id: 'livros', label: 'Livros' },
   { id: 'outros', label: 'Outros' },
 ]
+export const hiddenCategoryIds = ['casa', 'livros']
+
 export const categoryLabel = (id) => categories.find((category) => category.id === id)?.label ?? id

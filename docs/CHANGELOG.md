@@ -11,6 +11,8 @@ Alterações relevantes verificadas neste repositório. Este histórico é edito
 
 ## Esta atualização
 
+- Adicionado o 41º presente ao catálogo: Calça marrom tamanho 34, com foto e link da Zara.
+
 - 2026-11-10 — Removidos marcadores de conflito que impediam o build, mantendo o conteúdo HEAD alinhado às decisões aprovadas; instruções de uso adotam Bun.
 - Catálogo reorganizado em objetos com campos nomeados; comparação confirmou os 40 presentes e seus campos funcionais. Campos de URL de fotos antigas sem uso no app foram retirados.
 - CSS de catálogo e modal reformatado sem alterar seletores, declarações, breakpoints ou valores visuais. Criado o guia Vue para iniciantes e alinhada a documentação de cards.
