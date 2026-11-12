@@ -29,3 +29,4 @@ Alterações relevantes verificadas neste repositório. Este histórico é edito
 - Adicionado o 44º presente: Sandalia Prata, tamanho 36, na categoria Sapatos.
 - Adicionado o 45º presente: Bolsa Dourada, na categoria Acessórios.
 - Adicionado o 46º presente: Kit Wella Professionals Oil Reflections Duo, na categoria Beleza.
+- Adicionado o 47º presente: Pijama, na categoria Roupas.

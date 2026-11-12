@@ -30,16 +30,17 @@ const entries = [
   {
     "id": "perfume",
     "type": "product",
-    "title": "Perfume delicado",
-    "description": "Uma fragrância leve, floral e marcante na medida.",
+    "title": "Vénus Eau de Parfum Perfume - Nina Ricci",
+    "description": "Um toque dourado de charme para deixar cada momento ainda mais especial.",
     "category": "beleza",
     "favorite": true,
     "tags": [
       "perfume",
       "floral"
     ],
-    "image": "/images/perfume-editorial.png",
-    "imageAlt": "Fotografia ilustrativa: perfume delicado"
+    "image": "/images/venus-eau-de-parfum-nina-ricci.png",
+    "imageAlt": "Perfume Vénus Eau de Parfum Nina Ricci com frasco dourado em formato de concha",
+    "imageFit": "contain"
   },
   {
     "id": "flores",
@@ -416,7 +417,8 @@ const entries = [
       "tamanho 34"
     ],
     "image": "/images/calca-poa.png",
-    "imageAlt": "Calça branca com estampa de poás pretos"
+    "imageAlt": "Calça branca com estampa de poás pretos",
+    "imagePosition": "center 100%"
   },
   {
     "id": "bota",
@@ -697,6 +699,18 @@ const entries = [
     "tags": ["wella", "oil reflections", "shampoo", "condicionador", "cabelos"],
     "image": "/images/wella-oil-reflections-duo.png",
     "imageAlt": "Kit Wella Professionals Oil Reflections com shampoo e condicionador",
+    "imageFit": "contain"
+  },
+  {
+    "id": "pijama-fofo",
+    "type": "open",
+    "title": "Pijama",
+    "description": "Pijamas fofinhos e confortáveis.",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["pijama", "pijamas", "roupa", "conforto"],
+    "image": "/images/pijama-referencias.png",
+    "imageAlt": "Colagem de pijamas fofos em diferentes cores e modelos",
     "imageFit": "contain"
   }
 ]

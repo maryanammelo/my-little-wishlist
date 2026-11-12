@@ -11,7 +11,7 @@ const hasReferences = computed(() => props.gift.type === 'open' && props.gift.re
 
 <template>
   <article class="gift-card">
-    <button class="gift-image-button" :aria-label="`Ver detalhes de ${gift.title}`" @click="$emit('open', gift, $event.currentTarget)">
+    <button class="gift-image-button" :aria-label="`Ver detalhes de ${gift.title}`" :style="gift.imagePosition ? { '--image-position': gift.imagePosition } : undefined" @click="$emit('open', gift, $event.currentTarget)">
       <GiftImage :src="gift.image" :alt="gift.imageAlt" :eager="index < 4" :fit="gift.imageFit" />
       <span v-if="gift.favorite" class="favorite-badge"><Heart :size="15" aria-hidden="true" /> Favorito</span>
     </button>
