@@ -12,7 +12,7 @@ const entries = [
     "imageAlt": "Relógio de caixa quadrada prateada com pulseira metálica",
     "productUrl": "https://vt.tiktok.com/ZS9f5cdcSseRG-rx7vY/"
   },
-  {
+{
     "id": "fone-de-ouvido",
     "type": "product",
     "title": "AirPods Pro 3",
@@ -125,36 +125,6 @@ const entries = [
     "productUrl": "https://vt.tiktok.com/ZS9f5vd1W9rmb-14z3q/"
   },
   {
-    "id": "ceramica",
-    "type": "open",
-    "title": "Xícara de cerâmica",
-    "description": "Para transformar o café em um pequeno ritual.",
-    "category": "casa",
-    "favorite": false,
-    "tags": [
-      "café",
-      "xícara",
-      "caneca"
-    ],
-    "image": "/images/ceramica.jpg",
-    "imageAlt": "Fotografia ilustrativa: xícara de cerâmica"
-  },
-  {
-    "id": "livro",
-    "type": "open",
-    "title": "Uma boa história",
-    "description": "Um romance para ler sem ver a hora passar.",
-    "category": "livros",
-    "favorite": true,
-    "tags": [
-      "romance",
-      "leitura",
-      "livro"
-    ],
-    "image": "/images/livro.jpg",
-    "imageAlt": "Fotografia ilustrativa: uma boa história"
-  },
-  {
     "id": "jantar",
     "type": "experience",
     "title": "Jantar especial",
@@ -238,34 +208,6 @@ const entries = [
     "imageAlt": "iPhone em azul, prata e laranja, em vistas frontal e traseira"
   },
   {
-    "id": "vela",
-    "type": "open",
-    "title": "Vela perfumada",
-    "description": "Luz baixinha e um cheirinho acolhedor pela casa.",
-    "category": "casa",
-    "favorite": true,
-    "tags": [
-      "vela",
-      "aroma"
-    ],
-    "image": "/images/vela.jpg",
-    "imageAlt": "Fotografia ilustrativa: vela perfumada"
-  },
-  {
-    "id": "poesia",
-    "type": "open",
-    "title": "Poesia na estante",
-    "description": "Palavras bonitas para reler e deixar por perto.",
-    "category": "livros",
-    "favorite": false,
-    "tags": [
-      "poema",
-      "poesia"
-    ],
-    "image": "/images/poesia.jpg",
-    "imageAlt": "Fotografia ilustrativa: poesia na estante"
-  },
-  {
     "id": "spa",
     "type": "experience",
     "title": "Uma tarde de spa",
@@ -347,50 +289,6 @@ const entries = [
     "imageFit": "contain"
   },
   {
-    "id": "caixa-som",
-    "type": "product",
-    "title": "Caixinha de som",
-    "description": "Música boa para acompanhar os pequenos momentos.",
-    "category": "eletronicos",
-    "favorite": false,
-    "tags": [
-      "som",
-      "música",
-      "bluetooth"
-    ],
-    "image": "/images/caixa-som.jpg",
-    "imageAlt": "Fotografia ilustrativa: caixinha de som"
-  },
-  {
-    "id": "vaso",
-    "type": "open",
-    "title": "Vaso para flores",
-    "description": "Cerâmica em tons neutros e formas orgânicas.",
-    "category": "casa",
-    "favorite": false,
-    "tags": [
-      "vaso",
-      "cerâmica"
-    ],
-    "image": "/images/vaso.jpg",
-    "imageAlt": "Fotografia ilustrativa: vaso para flores"
-  },
-  {
-    "id": "arte",
-    "type": "open",
-    "title": "Livro de arte",
-    "description": "Fotografia, design e páginas para se inspirar.",
-    "category": "livros",
-    "favorite": false,
-    "tags": [
-      "arte",
-      "design",
-      "fotografia"
-    ],
-    "image": "/images/arte.jpg",
-    "imageAlt": "Fotografia ilustrativa: livro de arte"
-  },
-  {
     "id": "viagem",
     "type": "experience",
     "title": "Uma escapadinha",
@@ -439,20 +337,6 @@ const entries = [
     "productUrl": "https://www.nike.com.br/tenis-nike-air-max-90-feminino-080182.html?cor=56"
   },
   {
-    "id": "lenco",
-    "type": "open",
-    "title": "Lenço estampado",
-    "description": "Um detalhe bonito para a bolsa ou para o cabelo.",
-    "category": "acessorios",
-    "favorite": false,
-    "tags": [
-      "lenço",
-      "seda"
-    ],
-    "image": "/images/lenco.jpg",
-    "imageAlt": "Fotografia ilustrativa: lenço estampado"
-  },
-  {
     "id": "pinceis",
     "type": "open",
     "title": "Pincéis de maquiagem",
@@ -465,64 +349,6 @@ const entries = [
     ],
     "image": "/images/pinceis.jpg",
     "imageAlt": "Fotografia ilustrativa: pincéis de maquiagem"
-  },
-  {
-    "id": "leitor",
-    "type": "product",
-    "title": "Leitor digital",
-    "description": "Uma biblioteca inteira para levar comigo.",
-    "category": "eletronicos",
-    "favorite": true,
-    "tags": [
-      "leitor",
-      "ebook",
-      "livro"
-    ],
-    "image": "/images/leitor.jpg",
-    "imageAlt": "Fotografia ilustrativa: leitor digital"
-  },
-  {
-    "id": "manta",
-    "type": "open",
-    "title": "Manta para o sofá",
-    "description": "Uma textura gostosa e um cantinho acolhedor.",
-    "category": "casa",
-    "favorite": false,
-    "tags": [
-      "manta",
-      "decoração"
-    ],
-    "image": "/images/manta.jpg",
-    "imageAlt": "Fotografia ilustrativa: manta para o sofá"
-  },
-  {
-    "id": "receitas",
-    "type": "open",
-    "title": "Livro de receitas",
-    "description": "Ideias para testar e dividir à mesa.",
-    "category": "livros",
-    "favorite": false,
-    "tags": [
-      "receitas",
-      "cozinha"
-    ],
-    "image": "/images/receitas.jpg",
-    "imageAlt": "Fotografia ilustrativa: livro de receitas"
-  },
-  {
-    "id": "show",
-    "type": "experience",
-    "title": "Uma noite de música",
-    "description": "Um show especial para cantar todas as músicas.",
-    "category": "outros",
-    "favorite": true,
-    "tags": [
-      "show",
-      "ingresso",
-      "música"
-    ],
-    "image": "/images/show.jpg",
-    "imageAlt": "Fotografia ilustrativa: uma noite de música"
   },
   {
     "id": "sueter",
@@ -559,20 +385,6 @@ const entries = [
     "imageFit": "contain"
   },
   {
-    "id": "relogio",
-    "type": "open",
-    "title": "Relógio delicado",
-    "description": "Uma peça pequena, com desenho limpo e clássico.",
-    "category": "acessorios",
-    "favorite": false,
-    "tags": [
-      "relógio",
-      "acessório"
-    ],
-    "image": "/images/relogio.jpg",
-    "imageAlt": "Fotografia ilustrativa: relógio delicado"
-  },
-  {
     "id": "necessaire",
     "type": "open",
     "title": "Kit Wella Fusion Shampoo e Condicionador",
@@ -583,49 +395,6 @@ const entries = [
     "image": "/images/wella-fusion-duo.png",
     "imageAlt": "Kit Wella Professionals Fusion com shampoo e condicionador",
     "imageFit": "contain"
-  },
-  {
-    "id": "luminaria",
-    "type": "open",
-    "title": "Luminária de leitura",
-    "description": "Luz quentinha para as últimas páginas do dia.",
-    "category": "casa",
-    "favorite": false,
-    "tags": [
-      "luz",
-      "luminária"
-    ],
-    "image": "/images/luminaria.jpg",
-    "imageAlt": "Fotografia ilustrativa: luminária de leitura"
-  },
-  {
-    "id": "caderno",
-    "type": "open",
-    "title": "Caderno de ideias",
-    "description": "Para planos, listas e pensamentos soltos.",
-    "category": "livros",
-    "favorite": false,
-    "tags": [
-      "caderno",
-      "papelaria"
-    ],
-    "image": "/images/caderno.jpg",
-    "imageAlt": "Fotografia ilustrativa: caderno de ideias"
-  },
-  {
-    "id": "piquenique",
-    "type": "experience",
-    "title": "Piquenique no parque",
-    "description": "Uma toalha, algumas delícias e uma tarde ao sol.",
-    "category": "outros",
-    "favorite": false,
-    "tags": [
-      "piquenique",
-      "parque",
-      "experiência"
-    ],
-    "image": "/images/piquenique.jpg",
-    "imageAlt": "Fotografia ilustrativa: piquenique no parque"
   },
   {
     "id": "calca-marrom-zara",
