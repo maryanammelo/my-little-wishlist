@@ -1,6 +1,6 @@
 <script setup>
 import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
-import { ArrowUpRight, Heart, X } from '@lucide/vue'
+import { ArrowUpRight, X } from '@lucide/vue'
 import GiftImage from './GiftImage.vue'
 import GiftReferenceGallery from './GiftReferenceGallery.vue'
 import { categoryLabel, hiddenCategoryIds } from '../data/categories'
@@ -54,7 +54,6 @@ onBeforeUnmount(() => { if (props.gift) restore() })
           <div class="modal-image"><GiftImage :src="gift.image" :alt="gift.imageAlt" :fit="gift.imageFit" eager /></div>
           <div class="modal-content">
             <p v-if="visibleCategoryLabels.length" class="category-label">{{ visibleCategoryLabels.join(' · ') }}</p>
-            <span v-if="gift.favorite" class="modal-favorite"><Heart :size="15" aria-hidden="true" /> Entre os meus favoritos</span>
             <h2 id="modal-title">{{ gift.title }}</h2>
             <p id="modal-description">{{ gift.description }}</p>
             <dl v-if="preferences.length || gift.store || gift.price != null" class="preferences">
