@@ -506,6 +506,18 @@ const entries = [
     "imageAlt": "Anel Life Colors de prata com fileira de pedras coloridas",
     "imageFit": "contain",
     "productUrl": "https://www.vivara.com.br/anel-life-colors-em-prata-925-com-pedras-incolores-al01028600/p"
+  },
+  {
+    "id": "colares-de-prata",
+    "type": "open",
+    "title": "Colares de prata",
+    "description": "Qualquer colar de prata me deixaria muito feliz — eu iria amar ganhar um!",
+    "category": "acessorios",
+    "favorite": false,
+    "tags": ["colar", "colares", "prata", "acessórios"],
+    "image": "/images/colares-de-prata-referencias.png",
+    "imageAlt": "Inspiração de colares delicados de prata usados em camadas",
+    "imageFit": "contain"
   }
 ]
 
