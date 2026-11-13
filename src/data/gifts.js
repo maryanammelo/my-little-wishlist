@@ -4,7 +4,7 @@ const entries = [
     "id": "bolsa-borgonha",
     "type": "product",
     "title": "Relógio Boxy Romain Prata SaintGermain",
-    "description": "Ainda não sei.",
+    "description": "Um relógio prateado de estilo clássico, delicado e fácil de combinar no dia a dia.",
     "category": "acessorios",
     "favorite": false,
     "tags": ["relógio", "boxy", "romain", "prata", "saintgermain"],
@@ -109,7 +109,7 @@ const entries = [
     "id": "colar",
     "type": "product",
     "title": "Relógio Saint Germain Mini Belle Bicolor Gold 24mm",
-    "description": "Ainda não sei.",
+    "description": "A mistura do dourado com a prata traz um charme delicado e combina com diferentes ocasiões.",
     "category": "acessorios",
     "favorite": false,
     "tags": [
@@ -193,6 +193,18 @@ const entries = [
     "imageFit": "contain"
   },
   {
+    "id": "lapiseira-olhos-bordo-cherry",
+    "type": "open",
+    "title": "Lapiseira para olhos bordô – cherry",
+    "description": "Um delineado em tom cereja para dar um toque de cor e personalidade à make.",
+    "category": "beleza",
+    "favorite": false,
+    "tags": ["lapiseira", "olhos", "bordô", "cherry", "maquiagem"],
+    "image": "/images/lapiseira-olhos-bordo-cherry.png",
+    "imageAlt": "Lapiseira para olhos Cherry da Vizzela em tom bordô, com embalagem e produto",
+    "imageFit": "contain"
+  },
+  {
     "id": "camera",
     "type": "product",
     "title": "iPhone 17 PRO/PRO MAX 256GB",
@@ -246,7 +258,7 @@ const entries = [
     "id": "brincos",
     "type": "product",
     "title": "Relógio Boxy Bicolor Quadrado Dourado e Prata",
-    "description": "Ainda não sei.",
+    "description": "Com caixa quadrada e acabamento bicolor, é um acessório elegante para completar qualquer look.",
     "category": "acessorios",
     "favorite": false,
     "tags": [
@@ -320,20 +332,6 @@ const entries = [
     "imageAlt": "Tênis Nike Air Max 90 branco e rosa, visto de lado",
     "imageFit": "contain",
     "productUrl": "https://www.nike.com.br/tenis-nike-air-max-90-feminino-080182.html?cor=56"
-  },
-  {
-    "id": "pinceis",
-    "type": "open",
-    "title": "Pincéis de maquiagem",
-    "description": "Um conjunto essencial, com cerdas bem macias.",
-    "category": "beleza",
-    "favorite": false,
-    "tags": [
-      "pincel",
-      "maquiagem"
-    ],
-    "image": "/images/pinceis.jpg",
-    "imageAlt": "Fotografia ilustrativa: pincéis de maquiagem"
   },
   {
     "id": "sueter",
@@ -506,6 +504,43 @@ const entries = [
     "imageAlt": "Anel Life Colors de prata com fileira de pedras coloridas",
     "imageFit": "contain",
     "productUrl": "https://www.vivara.com.br/anel-life-colors-em-prata-925-com-pedras-incolores-al01028600/p"
+  },
+  {
+    "id": "charm-pendente-paleta-artista-pandora",
+    "type": "product",
+    "title": "Charm Pendente Paleta de Artista",
+    "description": "Um charm Pandora colorido que celebra a criatividade e a paixão por criar.",
+    "category": "acessorios",
+    "favorite": false,
+    "tags": ["charm", "pandora", "paleta de artista", "criatividade"],
+    "image": "/images/charm-pendente-paleta-artista-pandora.png",
+    "imageAlt": "Charm Pandora prateado em formato de paleta de artista com pedras coloridas",
+    "imageFit": "contain",
+    "productUrl": "https://br.pandora.net/pt/charms/charm-pendente-paleta-de-artista/799320C01.html?product_finding_method=plp"
+  },
+  {
+    "id": "roupas-rosa-claro",
+    "type": "open",
+    "title": "Roupas Rosa claro",
+    "description": "Qualquer peça de roupa nessa cor, eu iria amar!",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["roupas", "rosa claro", "rosa", "look"],
+    "image": "/images/roupas-rosa-claro-referencias.png",
+    "imageAlt": "Colagem de inspirações de roupas em tons de rosa claro",
+    "imageFit": "contain"
+  },
+  {
+    "id": "roupas-amarelo-manteiga",
+    "type": "open",
+    "title": "Roupas Amarelo Manteiga",
+    "description": "Qualquer peça de roupa nessa cor, eu iria amar!",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["roupas", "amarelo manteiga", "amarelo", "look"],
+    "image": "/images/roupas-amarelo-manteiga-referencias.png",
+    "imageAlt": "Colagem de inspirações de roupas em amarelo manteiga",
+    "imageFit": "contain"
   },
   {
     "id": "colares-de-prata",
