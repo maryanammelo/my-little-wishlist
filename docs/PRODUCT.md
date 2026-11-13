@@ -18,7 +18,7 @@ Não há backend, autenticação, compras, pagamentos, cadastro, scraping ou API
 
 ## Conteúdo e propriedade
 
-Os 40 presentes e as fotos da implementação inicial são exemplos visuais, não escolhas finais, preços ou recomendações de compra. A proprietária deve revisar e substituir títulos, preferências, imagens e links antes de compartilhar a lista como definitiva. O procedimento está em [CATALOGO.md](../CATALOGO.md).
+Os 33 presentes e as fotos da implementação inicial são exemplos visuais, não escolhas finais, preços ou recomendações de compra. A proprietária deve revisar e substituir títulos, preferências, imagens e links antes de compartilhar a lista como definitiva. O procedimento está em [CATALOGO.md](../CATALOGO.md).
 
 ## Requisitos vigentes
 

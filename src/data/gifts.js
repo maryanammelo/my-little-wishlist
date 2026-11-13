@@ -1,29 +1,18 @@
 // Conteúdo demonstrativo. Substitua por suas próprias escolhas e fotos autorizadas.
 const entries = [
-  {
+    {
     "id": "bolsa-borgonha",
-    "type": "open",
-    "title": "Bolsa borgonha",
-    "description": "Pequena, delicada e com espaço para o essencial.",
+    "type": "product",
+    "title": "Relógio Boxy Romain Prata SaintGermain",
+    "description": "Um relógio prateado de estilo clássico, delicado e fácil de combinar no dia a dia.",
     "category": "acessorios",
-    "favorite": true,
-    "tags": [
-      "bolsa",
-      "vinho"
-    ],
-    "image": "/images/bolsa-editorial.png",
-    "imageAlt": "Fotografia ilustrativa: bolsa borgonha",
-    "preferences": {
-      "colors": [
-        "Borgonha",
-        "Vinho"
-      ],
-      "styles": [
-        "Minimalista"
-      ]
-    }
+    "favorite": false,
+    "tags": ["relógio", "boxy", "romain", "prata", "saintgermain"],
+    "image": "/images/relogio-boxy-romain-prata.png",
+    "imageAlt": "Relógio de caixa quadrada prateada com pulseira metálica",
+    "productUrl": "https://vt.tiktok.com/ZS9f5cdcSseRG-rx7vY/"
   },
-  {
+{
     "id": "fone-de-ouvido",
     "type": "product",
     "title": "AirPods Pro 3",
@@ -41,16 +30,17 @@ const entries = [
   {
     "id": "perfume",
     "type": "product",
-    "title": "Perfume delicado",
-    "description": "Uma fragrância leve, floral e marcante na medida.",
+    "title": "Vénus Eau de Parfum Perfume - Nina Ricci",
+    "description": "Um toque dourado de charme para deixar cada momento ainda mais especial.",
     "category": "beleza",
     "favorite": true,
     "tags": [
       "perfume",
       "floral"
     ],
-    "image": "/images/perfume-editorial.png",
-    "imageAlt": "Fotografia ilustrativa: perfume delicado"
+    "image": "/images/venus-eau-de-parfum-nina-ricci.png",
+    "imageAlt": "Perfume Vénus Eau de Parfum Nina Ricci com frasco dourado em formato de concha",
+    "imageFit": "contain"
   },
   {
     "id": "flores",
@@ -63,8 +53,9 @@ const entries = [
       "flores",
       "buquê"
     ],
-    "image": "/images/flores.jpg",
-    "imageAlt": "Fotografia ilustrativa: um buquê de flores"
+    "image": "/images/buque-de-flores-referencias.png",
+    "imageAlt": "Colagem com quatro buquês em estilos e combinações de cores diferentes",
+    "imageFit": "contain"
   },
   {
     "id": "cardigan",
@@ -116,48 +107,22 @@ const entries = [
   },
   {
     "id": "colar",
-    "type": "open",
-    "title": "Colar dourado",
-    "description": "Corrente fininha com um detalhe especial.",
+    "type": "product",
+    "title": "Relógio Saint Germain Mini Belle Bicolor Gold 24mm",
+    "description": "A mistura do dourado com a prata traz um charme delicado e combina com diferentes ocasiões.",
     "category": "acessorios",
-    "favorite": true,
-    "tags": [
-      "joia",
-      "colar",
-      "dourado"
-    ],
-    "image": "/images/colar.jpg",
-    "imageAlt": "Fotografia ilustrativa: colar dourado"
-  },
-  {
-    "id": "ceramica",
-    "type": "open",
-    "title": "Xícara de cerâmica",
-    "description": "Para transformar o café em um pequeno ritual.",
-    "category": "casa",
     "favorite": false,
     "tags": [
-      "café",
-      "xícara",
-      "caneca"
+      "relógio",
+      "saint germain",
+      "mini belle",
+      "bicolor",
+      "gold",
+      "24mm"
     ],
-    "image": "/images/ceramica.jpg",
-    "imageAlt": "Fotografia ilustrativa: xícara de cerâmica"
-  },
-  {
-    "id": "livro",
-    "type": "open",
-    "title": "Uma boa história",
-    "description": "Um romance para ler sem ver a hora passar.",
-    "category": "livros",
-    "favorite": true,
-    "tags": [
-      "romance",
-      "leitura",
-      "livro"
-    ],
-    "image": "/images/livro.jpg",
-    "imageAlt": "Fotografia ilustrativa: uma boa história"
+    "image": "/images/relogio-saint-germain.png",
+    "imageAlt": "Relógio Saint Germain Mini Belle bicolor com pulseira prateada e dourada",
+    "productUrl": "https://vt.tiktok.com/ZS9f5vd1W9rmb-14z3q/"
   },
   {
     "id": "jantar",
@@ -171,14 +136,15 @@ const entries = [
       "restaurante",
       "experiência"
     ],
-    "image": "/images/jantar.jpg",
-    "imageAlt": "Fotografia ilustrativa: jantar especial"
+    "image": "/images/jantar-especial-sushi.png",
+    "imageAlt": "Prato com uma seleção variada de sushi e sashimi",
+    "imageFit": "contain"
   },
   {
     "id": "vestido",
     "type": "open",
     "title": "Calça Branca Jeans/Alfaiataria",
-    "description": "Tamanho 34",
+    "description": "Modelo Wide leg ou Reta - Tamanho 34",
     "category": "roupas",
     "favorite": true,
     "tags": [
@@ -227,6 +193,18 @@ const entries = [
     "imageFit": "contain"
   },
   {
+    "id": "lapiseira-olhos-bordo-cherry",
+    "type": "open",
+    "title": "Lapiseira para olhos bordô – cherry",
+    "description": "Um delineado em tom cereja para dar um toque de cor e personalidade à make.",
+    "category": "beleza",
+    "favorite": false,
+    "tags": ["lapiseira", "olhos", "bordô", "cherry", "maquiagem"],
+    "image": "/images/lapiseira-olhos-bordo-cherry.png",
+    "imageAlt": "Lapiseira para olhos Cherry da Vizzela em tom bordô, com embalagem e produto",
+    "imageFit": "contain"
+  },
+  {
     "id": "camera",
     "type": "product",
     "title": "iPhone 17 PRO/PRO MAX 256GB",
@@ -240,49 +218,6 @@ const entries = [
     ],
     "image": "/images/iphone-17-pro-pro-max.png",
     "imageAlt": "iPhone em azul, prata e laranja, em vistas frontal e traseira"
-  },
-  {
-    "id": "vela",
-    "type": "open",
-    "title": "Vela perfumada",
-    "description": "Luz baixinha e um cheirinho acolhedor pela casa.",
-    "category": "casa",
-    "favorite": true,
-    "tags": [
-      "vela",
-      "aroma"
-    ],
-    "image": "/images/vela.jpg",
-    "imageAlt": "Fotografia ilustrativa: vela perfumada"
-  },
-  {
-    "id": "poesia",
-    "type": "open",
-    "title": "Poesia na estante",
-    "description": "Palavras bonitas para reler e deixar por perto.",
-    "category": "livros",
-    "favorite": false,
-    "tags": [
-      "poema",
-      "poesia"
-    ],
-    "image": "/images/poesia.jpg",
-    "imageAlt": "Fotografia ilustrativa: poesia na estante"
-  },
-  {
-    "id": "spa",
-    "type": "experience",
-    "title": "Uma tarde de spa",
-    "description": "Um dia tranquilo, sem pressa, para cuidar de mim.",
-    "category": "outros",
-    "favorite": true,
-    "tags": [
-      "spa",
-      "massagem",
-      "descanso"
-    ],
-    "image": "/images/spa.jpg",
-    "imageAlt": "Fotografia ilustrativa: uma tarde de spa"
   },
   {
     "id": "camisa",
@@ -321,76 +256,34 @@ const entries = [
   },
   {
     "id": "brincos",
-    "type": "open",
-    "title": "Brincos pequenos",
-    "description": "Um par dourado, discreto e cheio de charme.",
+    "type": "product",
+    "title": "Relógio Boxy Bicolor Quadrado Dourado e Prata",
+    "description": "Com caixa quadrada e acabamento bicolor, é um acessório elegante para completar qualquer look.",
     "category": "acessorios",
-    "favorite": true,
+    "favorite": false,
     "tags": [
-      "brinco",
-      "joias"
+      "relógio",
+      "boxy",
+      "bicolor",
+      "quadrado",
+      "dourado",
+      "prata"
     ],
-    "image": "/images/brincos.jpg",
-    "imageAlt": "Fotografia ilustrativa: brincos pequenos"
+    "image": "/images/relogio-boxy-bicolor.png",
+    "imageAlt": "Relógio de caixa quadrada bicolor dourada e prateada",
+    "productUrl": "https://vt.tiktok.com/ZS9f5v7hYR5VS-biV9B/"
   },
   {
     "id": "skincare",
     "type": "open",
-    "title": "Um ritual de cuidado",
-    "description": "Texturas leves para um momento só meu.",
+    "title": "Mascavo Bronzer cor: Sunset",
+    "description": "Mascavo Summer Glow Bronzer Sunset 8g",
     "category": "beleza",
     "favorite": false,
-    "tags": [
-      "skincare",
-      "pele",
-      "creme"
-    ],
-    "image": "/images/skincare.jpg",
-    "imageAlt": "Fotografia ilustrativa: um ritual de cuidado"
-  },
-  {
-    "id": "caixa-som",
-    "type": "product",
-    "title": "Caixinha de som",
-    "description": "Música boa para acompanhar os pequenos momentos.",
-    "category": "eletronicos",
-    "favorite": false,
-    "tags": [
-      "som",
-      "música",
-      "bluetooth"
-    ],
-    "image": "/images/caixa-som.jpg",
-    "imageAlt": "Fotografia ilustrativa: caixinha de som"
-  },
-  {
-    "id": "vaso",
-    "type": "open",
-    "title": "Vaso para flores",
-    "description": "Cerâmica em tons neutros e formas orgânicas.",
-    "category": "casa",
-    "favorite": false,
-    "tags": [
-      "vaso",
-      "cerâmica"
-    ],
-    "image": "/images/vaso.jpg",
-    "imageAlt": "Fotografia ilustrativa: vaso para flores"
-  },
-  {
-    "id": "arte",
-    "type": "open",
-    "title": "Livro de arte",
-    "description": "Fotografia, design e páginas para se inspirar.",
-    "category": "livros",
-    "favorite": false,
-    "tags": [
-      "arte",
-      "design",
-      "fotografia"
-    ],
-    "image": "/images/arte.jpg",
-    "imageAlt": "Fotografia ilustrativa: livro de arte"
+    "tags": ["bronzer", "mascavo", "sunset", "bronzeador"],
+    "image": "/images/mascavo-bronzer-sunset.png",
+    "imageAlt": "Bronzer compacto Mascavo Summer Glow na cor Sunset em estojo aberto",
+    "imageFit": "contain"
   },
   {
     "id": "viagem",
@@ -419,107 +312,26 @@ const entries = [
       "tamanho 34"
     ],
     "image": "/images/calca-poa.png",
-    "imageAlt": "Calça branca com estampa de poás pretos"
+    "imageAlt": "Calça branca com estampa de poás pretos",
+    "imagePosition": "center 100%"
   },
   {
     "id": "bota",
-    "type": "open",
-    "title": "Bota de cano curto",
-    "description": "Um clássico para os dias de outono.",
+    "type": "product",
+    "title": "Tênis Nike Air Max 90",
+    "description": "Tamanho 36",
     "category": "sapatos",
     "favorite": false,
     "tags": [
-      "bota",
-      "outono"
+      "nike",
+      "air max 90",
+      "tênis",
+      "tamanho 36"
     ],
-    "image": "/images/bota.jpg",
-    "imageAlt": "Fotografia ilustrativa: bota de cano curto"
-  },
-  {
-    "id": "lenco",
-    "type": "open",
-    "title": "Lenço estampado",
-    "description": "Um detalhe bonito para a bolsa ou para o cabelo.",
-    "category": "acessorios",
-    "favorite": false,
-    "tags": [
-      "lenço",
-      "seda"
-    ],
-    "image": "/images/lenco.jpg",
-    "imageAlt": "Fotografia ilustrativa: lenço estampado"
-  },
-  {
-    "id": "pinceis",
-    "type": "open",
-    "title": "Pincéis de maquiagem",
-    "description": "Um conjunto essencial, com cerdas bem macias.",
-    "category": "beleza",
-    "favorite": false,
-    "tags": [
-      "pincel",
-      "maquiagem"
-    ],
-    "image": "/images/pinceis.jpg",
-    "imageAlt": "Fotografia ilustrativa: pincéis de maquiagem"
-  },
-  {
-    "id": "leitor",
-    "type": "product",
-    "title": "Leitor digital",
-    "description": "Uma biblioteca inteira para levar comigo.",
-    "category": "eletronicos",
-    "favorite": true,
-    "tags": [
-      "leitor",
-      "ebook",
-      "livro"
-    ],
-    "image": "/images/leitor.jpg",
-    "imageAlt": "Fotografia ilustrativa: leitor digital"
-  },
-  {
-    "id": "manta",
-    "type": "open",
-    "title": "Manta para o sofá",
-    "description": "Uma textura gostosa e um cantinho acolhedor.",
-    "category": "casa",
-    "favorite": false,
-    "tags": [
-      "manta",
-      "decoração"
-    ],
-    "image": "/images/manta.jpg",
-    "imageAlt": "Fotografia ilustrativa: manta para o sofá"
-  },
-  {
-    "id": "receitas",
-    "type": "open",
-    "title": "Livro de receitas",
-    "description": "Ideias para testar e dividir à mesa.",
-    "category": "livros",
-    "favorite": false,
-    "tags": [
-      "receitas",
-      "cozinha"
-    ],
-    "image": "/images/receitas.jpg",
-    "imageAlt": "Fotografia ilustrativa: livro de receitas"
-  },
-  {
-    "id": "show",
-    "type": "experience",
-    "title": "Uma noite de música",
-    "description": "Um show especial para cantar todas as músicas.",
-    "category": "outros",
-    "favorite": true,
-    "tags": [
-      "show",
-      "ingresso",
-      "música"
-    ],
-    "image": "/images/show.jpg",
-    "imageAlt": "Fotografia ilustrativa: uma noite de música"
+    "image": "/images/nike-air-max-90.png",
+    "imageAlt": "Tênis Nike Air Max 90 branco e rosa, visto de lado",
+    "imageFit": "contain",
+    "productUrl": "https://www.nike.com.br/tenis-nike-air-max-90-feminino-080182.html?cor=56"
   },
   {
     "id": "sueter",
@@ -543,87 +355,204 @@ const entries = [
   {
     "id": "mocassim",
     "type": "open",
-    "title": "Mocassim atemporal",
-    "description": "Para deixar os looks simples mais especiais.",
+    "title": "Bota Preta Cano Longo",
+    "description": "Tamanho 36",
     "category": "sapatos",
     "favorite": false,
     "tags": [
-      "mocassim",
-      "sapato"
+      "bota",
+      "bota preta"
     ],
-    "image": "/images/mocassim.jpg",
-    "imageAlt": "Fotografia ilustrativa: mocassim atemporal"
-  },
-  {
-    "id": "relogio",
-    "type": "open",
-    "title": "Relógio delicado",
-    "description": "Uma peça pequena, com desenho limpo e clássico.",
-    "category": "acessorios",
-    "favorite": false,
-    "tags": [
-      "relógio",
-      "acessório"
-    ],
-    "image": "/images/relogio.jpg",
-    "imageAlt": "Fotografia ilustrativa: relógio delicado"
+    "image": "/images/bota-preta-cano-longo.png",
+    "imageAlt": "Bota preta de cano longo com salto baixo e detalhe dourado",
+    "imageFit": "contain"
   },
   {
     "id": "necessaire",
     "type": "open",
-    "title": "Nécessaire de viagem",
-    "description": "Tudo no lugar, com um toque de delicadeza.",
+    "title": "Kit Wella Fusion Shampoo e Condicionador",
+    "description": "Um duo para transformar o cuidado dos fios em um ritual especial, com shampoo e condicionador.",
     "category": "beleza",
     "favorite": false,
-    "tags": [
-      "nécessaire",
-      "viagem"
-    ],
-    "image": "/images/necessaire.jpg",
-    "imageAlt": "Fotografia ilustrativa: nécessaire de viagem"
+    "tags": ["wella", "fusion", "shampoo", "condicionador", "cabelos"],
+    "image": "/images/wella-fusion-duo.png",
+    "imageAlt": "Kit Wella Professionals Fusion com shampoo e condicionador",
+    "imageFit": "contain"
   },
   {
-    "id": "luminaria",
+    "id": "calca-marrom-zara",
+    "type": "product",
+    "title": "Calça marrom",
+    "description": "Tamanho 34",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["calça", "marrom", "zara", "jeans", "wide leg", "tamanho 34"],
+    "image": "/images/calca-marrom-zara.png",
+    "imageAlt": "Calça jeans marrom de cintura alta e modelagem ampla",
+    "imageFit": "contain",
+    "productUrl": "https://www.zara.com/br/pt/jeans-zw-collection-wide-leg-cintura-alta-p08307251.html?v1=557198531&utm_campaign=productShare&utm_medium=mobile_sharing_iOS&utm_source=red_social_movil"
+  },
+  {
+    "id": "vestido-preto-cea",
+    "type": "product",
+    "title": "Vestido preto",
+    "description": "Tamanho PP",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["vestido", "preto", "renda", "cea", "tamanho PP"],
+    "image": "/images/vestido-preto-cea.png",
+    "imageAlt": "Vestido preto curto de gola alta e sem mangas, usado por uma modelo",
+    "imageFit": "contain",
+    "productUrl": "https://www.cea.com.br/vestido-curto-feminino-com-renda-frente-unica-preto-1114486-preto/p"
+  },
+  {
+    "id": "roupas-bordo-borgonha",
     "type": "open",
-    "title": "Luminária de leitura",
-    "description": "Luz quentinha para as últimas páginas do dia.",
-    "category": "casa",
+    "title": "Roupas Bordô ou Borgonha",
+    "description": "Qualquer peça de roupa nessa cor, eu iria amar!",
+    "category": "roupas",
     "favorite": false,
-    "tags": [
-      "luz",
-      "luminária"
-    ],
-    "image": "/images/luminaria.jpg",
-    "imageAlt": "Fotografia ilustrativa: luminária de leitura"
+    "tags": ["roupas", "bordô", "borgonha", "vinho"],
+    "image": "/images/roupas-bordo-borgonha.png",
+    "imageAlt": "Colagem de roupas, sapatos e acessórios em tons bordô e borgonha",
+    "imageFit": "contain"
   },
   {
-    "id": "caderno",
+    "id": "sandalia-prata",
     "type": "open",
-    "title": "Caderno de ideias",
-    "description": "Para planos, listas e pensamentos soltos.",
-    "category": "livros",
+    "title": "Sandalia Prata",
+    "description": "Tamanho 36",
+    "category": "sapatos",
     "favorite": false,
-    "tags": [
-      "caderno",
-      "papelaria"
-    ],
-    "image": "/images/caderno.jpg",
-    "imageAlt": "Fotografia ilustrativa: caderno de ideias"
+    "tags": ["sandália", "prata", "sapatos", "tamanho 36"],
+    "image": "/images/sandalia-prata.png",
+    "imageAlt": "Colagem de sandálias prateadas em diferentes estilos",
+    "imageFit": "contain"
   },
   {
-    "id": "piquenique",
-    "type": "experience",
-    "title": "Piquenique no parque",
-    "description": "Uma toalha, algumas delícias e uma tarde ao sol.",
-    "category": "outros",
+    "id": "bolsa-dourada",
+    "type": "open",
+    "title": "Bolsa Dourada",
+    "description": "Uma bolsa metalizada para dar um toque de brilho e elegância aos looks.",
+    "category": "acessorios",
     "favorite": false,
-    "tags": [
-      "piquenique",
-      "parque",
-      "experiência"
-    ],
-    "image": "/images/piquenique.jpg",
-    "imageAlt": "Fotografia ilustrativa: piquenique no parque"
+    "tags": ["bolsa", "dourada", "metalizada", "acessórios"],
+    "image": "/images/bolsa-dourada.png",
+    "imageAlt": "Colagem de bolsas metalizadas em dourado e prata, em diferentes modelos",
+    "imageFit": "contain"
+  },
+  {
+    "id": "wella-oil-reflections-duo",
+    "type": "open",
+    "title": "Kit Wella Professionals Oil Reflections Duo",
+    "description": "Um duo de shampoo e condicionador para deixar o cuidado dos fios ainda mais especial, com brilho e leveza.",
+    "category": "beleza",
+    "favorite": false,
+    "tags": ["wella", "oil reflections", "shampoo", "condicionador", "cabelos"],
+    "image": "/images/wella-oil-reflections-duo.png",
+    "imageAlt": "Kit Wella Professionals Oil Reflections com shampoo e condicionador",
+    "imageFit": "contain"
+  },
+  {
+    "id": "pijama-fofo",
+    "type": "open",
+    "title": "Pijama",
+    "description": "Pijamas fofinhos e confortáveis.",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["pijama", "pijamas", "roupa", "conforto"],
+    "image": "/images/pijama-referencias.png",
+    "imageAlt": "Colagem de pijamas fofos em diferentes cores e modelos",
+    "imageFit": "contain"
+  },
+  {
+    "id": "piano-digital-yamaha",
+    "type": "product",
+    "title": "Piano Digital Yamaha",
+    "description": "P145 88 Teclas Com Pedal",
+    "category": "eletronicos",
+    "alsoInCategories": ["outros"],
+    "favorite": false,
+    "tags": ["piano", "yamaha", "P145", "88 teclas", "pedal"],
+    "image": "/images/piano-digital-yamaha.png",
+    "imageAlt": "Piano digital Yamaha P145 de 88 teclas com pedal",
+    "imageFit": "contain",
+    "productUrl": "https://meli.la/2eL6rxa"
+  },
+  {
+    "id": "anel-life",
+    "type": "product",
+    "title": "Anel Life",
+    "description": "Coloré em Prata 925 com Cristais Verde e Incolores. Tamanho: 10/11/12.",
+    "category": "acessorios",
+    "favorite": false,
+    "tags": ["anel", "life", "vivara", "prata 925", "cristal verde"],
+    "image": "/images/anel-life-prata-cristais-verde.png",
+    "imageAlt": "Anel Life em prata com cristal verde central e cristais incolores",
+    "imageFit": "contain",
+    "productUrl": "https://www.vivara.com.br/anel-life-colore-prata-cristal-verde-al01008600/p"
+  },
+  {
+    "id": "anel-life-colors",
+    "type": "product",
+    "title": "Anel Life Colors",
+    "description": "Em Prata 925 com Pedras Incolores. Tamanho: 10/11/12.",
+    "category": "acessorios",
+    "favorite": false,
+    "tags": ["anel", "life colors", "vivara", "prata 925", "pedras incolores"],
+    "image": "/images/anel-life-colors.png",
+    "imageAlt": "Anel Life Colors de prata com fileira de pedras coloridas",
+    "imageFit": "contain",
+    "productUrl": "https://www.vivara.com.br/anel-life-colors-em-prata-925-com-pedras-incolores-al01028600/p"
+  },
+  {
+    "id": "charm-pendente-paleta-artista-pandora",
+    "type": "product",
+    "title": "Charm Pendente Paleta de Artista",
+    "description": "Um charm Pandora colorido que celebra a criatividade e a paixão por criar.",
+    "category": "acessorios",
+    "favorite": false,
+    "tags": ["charm", "pandora", "paleta de artista", "criatividade"],
+    "image": "/images/charm-pendente-paleta-artista-pandora.png",
+    "imageAlt": "Charm Pandora prateado em formato de paleta de artista com pedras coloridas",
+    "imageFit": "contain",
+    "productUrl": "https://br.pandora.net/pt/charms/charm-pendente-paleta-de-artista/799320C01.html?product_finding_method=plp"
+  },
+  {
+    "id": "roupas-rosa-claro",
+    "type": "open",
+    "title": "Roupas Rosa claro",
+    "description": "Qualquer peça de roupa nessa cor, eu iria amar!",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["roupas", "rosa claro", "rosa", "look"],
+    "image": "/images/roupas-rosa-claro-referencias.png",
+    "imageAlt": "Colagem de inspirações de roupas em tons de rosa claro",
+    "imageFit": "contain"
+  },
+  {
+    "id": "roupas-amarelo-manteiga",
+    "type": "open",
+    "title": "Roupas Amarelo Manteiga",
+    "description": "Qualquer peça de roupa nessa cor, eu iria amar!",
+    "category": "roupas",
+    "favorite": false,
+    "tags": ["roupas", "amarelo manteiga", "amarelo", "look"],
+    "image": "/images/roupas-amarelo-manteiga-referencias.png",
+    "imageAlt": "Colagem de inspirações de roupas em amarelo manteiga",
+    "imageFit": "contain"
+  },
+  {
+    "id": "colares-de-prata",
+    "type": "open",
+    "title": "Colares de prata",
+    "description": "Qualquer colar de prata me deixaria muito feliz — eu iria amar ganhar um!",
+    "category": "acessorios",
+    "favorite": false,
+    "tags": ["colar", "colares", "prata", "acessórios"],
+    "image": "/images/colares-de-prata-referencias.png",
+    "imageAlt": "Inspiração de colares delicados de prata usados em camadas",
+    "imageFit": "contain"
   }
 ]
 
@@ -644,5 +573,5 @@ export const gifts = entries.map((gift) => ({
   experienceUrl: gift.experienceUrl ?? null,
   store: gift.store ?? null,
   price: gift.price ?? null,
-  notes: gift.notes ?? notesByType[gift.type],
+  notes: gift.notes ?? (gift.productUrl ? 'Link do produto disponível.' : notesByType[gift.type]),
 }))

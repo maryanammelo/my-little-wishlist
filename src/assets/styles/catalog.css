@@ -104,7 +104,7 @@
 
 .gift-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22px 16px;
 }
 
@@ -152,23 +152,7 @@
   }
 }
 
-.favorite-badge {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 7px 10px;
-  background: #fffcf8f5;
-  border-radius: 30px;
-  font-size: 11px;
-  font-weight: 500;
-}
 
-.favorite-badge svg {
-  fill: #f2dfe0;
-}
 
 .gift-card-body {
   padding: 17px 5px 4px;
@@ -276,6 +260,34 @@
   margin-top: 5px;
 }
 
+@media (max-width: 399px) {
+  .gift-grid {
+    gap: 18px 10px;
+  }
+
+  .gift-card {
+    padding: 8px;
+    border-radius: 18px;
+  }
+
+  .gift-card-body {
+    padding: 13px 2px 3px;
+  }
+
+  .gift-card h3 {
+    font-size: 16px;
+  }
+
+  .gift-description {
+    font-size: 12px;
+  }
+
+  .action-button {
+    font-size: 12px;
+    padding-inline: 6px;
+    gap: 5px;
+  }
+}
 
 @media (min-width: 400px) {
   .gift-grid {
@@ -299,15 +311,7 @@
   .gift-description {
     font-size: 12px;
   }
-
-  .favorite-badge {
-    top: 7px;
-    right: 7px;
-    padding: 6px 8px;
-    font-size: 10px;
-  }
-
-  .action-button {
+.action-button {
     font-size: 12px;
     padding-inline: 6px;
     gap: 5px;
@@ -344,15 +348,7 @@
     font-size: 15px;
     gap: 9px;
   }
-
-  .favorite-badge {
-    padding: 7px 10px;
-    font-size: 11px;
-    top: 10px;
-    right: 10px;
-  }
-
-  .filter-chip {
+.filter-chip {
     font-size: 15px;
     padding-inline: 20px;
     min-height: 46px;
@@ -405,5 +401,11 @@
 
   .filter-chip {
     padding-inline: 19px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gift-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

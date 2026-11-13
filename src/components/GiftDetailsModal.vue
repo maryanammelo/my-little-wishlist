@@ -1,15 +1,16 @@
 <script setup>
 import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
-import { ArrowUpRight, Heart, X } from '@lucide/vue'
+import { ArrowUpRight, X } from '@lucide/vue'
 import GiftImage from './GiftImage.vue'
 import GiftReferenceGallery from './GiftReferenceGallery.vue'
-import { categoryLabel } from '../data/categories'
+import { categoryLabel, hiddenCategoryIds } from '../data/categories'
 import { externalAction } from '../utils/giftLinks'
 const props = defineProps({ gift: Object, opener: Object })
 const emit = defineEmits(['close'])
 const dialog = ref(null)
 const closeButton = ref(null)
 const action = computed(() => props.gift ? externalAction(props.gift) : null)
+const visibleCategoryLabels = computed(() => [...new Set([props.gift?.category, ...(props.gift?.alsoInCategories ?? [])].filter(Boolean))].filter((id) => !hiddenCategoryIds.includes(id)).map(categoryLabel))
 const labels = { colors: 'Cores', sizes: 'Tamanhos', styles: 'Estilo', materials: 'Materiais' }
 const preferences = computed(() => Object.entries(props.gift?.preferences ?? {}).filter(([, value]) => value?.length))
 let previousOverflow = ''
@@ -52,8 +53,7 @@ onBeforeUnmount(() => { if (props.gift) restore() })
           <button ref="closeButton" class="modal-close icon-button" aria-label="Fechar detalhes" @click="close"><X :size="22" aria-hidden="true" /></button>
           <div class="modal-image"><GiftImage :src="gift.image" :alt="gift.imageAlt" :fit="gift.imageFit" eager /></div>
           <div class="modal-content">
-            <p class="category-label">{{ categoryLabel(gift.category) }}</p>
-            <span v-if="gift.favorite" class="modal-favorite"><Heart :size="15" aria-hidden="true" /> Entre os meus favoritos</span>
+            <p v-if="visibleCategoryLabels.length" class="category-label">{{ visibleCategoryLabels.join(' · ') }}</p>
             <h2 id="modal-title">{{ gift.title }}</h2>
             <p id="modal-description">{{ gift.description }}</p>
             <dl v-if="preferences.length || gift.store || gift.price != null" class="preferences">

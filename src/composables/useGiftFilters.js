@@ -6,7 +6,7 @@ export function filterGifts(gifts, { mode = 'all', category = '', query = '' } =
   const words = normalize(query).trim().split(/\s+/).filter(Boolean)
   return gifts.filter((gift) => {
     const text = normalize([gift.title, gift.description, ...(gift.tags ?? [])].join(' '))
-    return (mode !== 'favorites' || gift.favorite) && (!category || gift.category === category) && words.every((word) => text.includes(word))
+    return (mode !== 'favorites' || gift.favorite) && (!category || gift.category === category || (gift.alsoInCategories ?? []).includes(category)) && words.every((word) => text.includes(word))
   })
 }
 

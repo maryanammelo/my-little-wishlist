@@ -13,7 +13,7 @@ Catálogo editorial feminino, minimalista, delicado e sofisticado. Valorizar fot
 | Pure Light | `#F8F1E0` | Superfícies suaves e paleta base |
 | Soft Grace | `#DAA5AD` | Detalhes delicados |
 | Blooming Rose | `#BC8169` | Acentos |
-| Alliance Wine | `#551C25` | Ações e destaque |
+| Alliance Wine | `#500E2A` | Ações e destaque |
 | Aged Wine | `#3F1122` | Hover e contraste |
 | Branco | `#FFFFFF` | Superfícies |
 

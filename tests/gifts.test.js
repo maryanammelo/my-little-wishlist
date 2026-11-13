@@ -6,13 +6,13 @@ import { categories } from '../src/data/categories.js'
 import { filterGifts } from '../src/composables/useGiftFilters.js'
 import { externalAction, safeUrl } from '../src/utils/giftLinks.js'
 
-test('catálogo demonstrativo tem 40 IDs únicos, categorias válidas e fotos locais', () => {
-  assert.equal(gifts.length, 40)
-  assert.equal(new Set(gifts.map((gift) => gift.id)).size, 40)
+test('catálogo contém 33 presentes com IDs únicos e imagens locais quando cadastradas', () => {
+  assert.equal(gifts.length, 33)
+  assert.equal(new Set(gifts.map((gift) => gift.id)).size, 33)
   assert.deepEqual(new Set(gifts.map((gift) => gift.type)), new Set(['open', 'product', 'experience']))
   for (const gift of gifts) {
     assert.ok(categories.some((category) => category.id === gift.category))
-    assert.ok(existsSync(`public${gift.image}`), gift.image)
+    if (gift.image) assert.ok(existsSync(`public${gift.image}`), gift.image)
   }
 })
 
