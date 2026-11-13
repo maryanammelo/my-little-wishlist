@@ -10,6 +10,7 @@ const emit = defineEmits(['close'])
 const dialog = ref(null)
 const closeButton = ref(null)
 const action = computed(() => props.gift ? externalAction(props.gift) : null)
+const visibleCategoryLabels = computed(() => [...new Set([props.gift?.category, ...(props.gift?.alsoInCategories ?? [])].filter(Boolean))].filter((id) => !hiddenCategoryIds.includes(id)).map(categoryLabel))
 const labels = { colors: 'Cores', sizes: 'Tamanhos', styles: 'Estilo', materials: 'Materiais' }
 const preferences = computed(() => Object.entries(props.gift?.preferences ?? {}).filter(([, value]) => value?.length))
 let previousOverflow = ''
@@ -52,7 +53,7 @@ onBeforeUnmount(() => { if (props.gift) restore() })
           <button ref="closeButton" class="modal-close icon-button" aria-label="Fechar detalhes" @click="close"><X :size="22" aria-hidden="true" /></button>
           <div class="modal-image"><GiftImage :src="gift.image" :alt="gift.imageAlt" :fit="gift.imageFit" eager /></div>
           <div class="modal-content">
-            <p v-if="!hiddenCategoryIds.includes(gift.category)" class="category-label">{{ categoryLabel(gift.category) }}</p>
+            <p v-if="visibleCategoryLabels.length" class="category-label">{{ visibleCategoryLabels.join(' · ') }}</p>
             <span v-if="gift.favorite" class="modal-favorite"><Heart :size="15" aria-hidden="true" /> Entre os meus favoritos</span>
             <h2 id="modal-title">{{ gift.title }}</h2>
             <p id="modal-description">{{ gift.description }}</p>

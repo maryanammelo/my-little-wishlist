@@ -208,21 +208,6 @@ const entries = [
     "imageAlt": "iPhone em azul, prata e laranja, em vistas frontal e traseira"
   },
   {
-    "id": "spa",
-    "type": "experience",
-    "title": "Uma tarde de spa",
-    "description": "Um dia tranquilo, sem pressa, para cuidar de mim.",
-    "category": "outros",
-    "favorite": true,
-    "tags": [
-      "spa",
-      "massagem",
-      "descanso"
-    ],
-    "image": "/images/spa.jpg",
-    "imageAlt": "Fotografia ilustrativa: uma tarde de spa"
-  },
-  {
     "id": "camisa",
     "type": "open",
     "title": "Camisa social branca",
@@ -481,6 +466,46 @@ const entries = [
     "image": "/images/pijama-referencias.png",
     "imageAlt": "Colagem de pijamas fofos em diferentes cores e modelos",
     "imageFit": "contain"
+  },
+  {
+    "id": "piano-digital-yamaha",
+    "type": "product",
+    "title": "Piano Digital Yamaha",
+    "description": "P145 88 Teclas Com Pedal",
+    "category": "eletronicos",
+    "alsoInCategories": ["outros"],
+    "favorite": false,
+    "tags": ["piano", "yamaha", "P145", "88 teclas", "pedal"],
+    "image": "/images/piano-digital-yamaha.png",
+    "imageAlt": "Piano digital Yamaha P145 de 88 teclas com pedal",
+    "imageFit": "contain",
+    "productUrl": "https://meli.la/2eL6rxa"
+  },
+  {
+    "id": "anel-life",
+    "type": "product",
+    "title": "Anel Life",
+    "description": "Coloré em Prata 925 com Cristais Verde e Incolores. Tamanho: 10/11/12.",
+    "category": "acessorios",
+    "favorite": false,
+    "tags": ["anel", "life", "vivara", "prata 925", "cristal verde"],
+    "image": "/images/anel-life-prata-cristais-verde.png",
+    "imageAlt": "Anel Life em prata com cristal verde central e cristais incolores",
+    "imageFit": "contain",
+    "productUrl": "https://www.vivara.com.br/anel-life-colore-prata-cristal-verde-al01008600/p"
+  },
+  {
+    "id": "anel-life-colors",
+    "type": "product",
+    "title": "Anel Life Colors",
+    "description": "Em Prata 925 com Pedras Incolores. Tamanho: 10/11/12.",
+    "category": "acessorios",
+    "favorite": false,
+    "tags": ["anel", "life colors", "vivara", "prata 925", "pedras incolores"],
+    "image": "/images/anel-life-colors.png",
+    "imageAlt": "Anel Life Colors de prata com fileira de pedras coloridas",
+    "imageFit": "contain",
+    "productUrl": "https://www.vivara.com.br/anel-life-colors-em-prata-925-com-pedras-incolores-al01028600/p"
   }
 ]
 

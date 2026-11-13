@@ -18,7 +18,7 @@ Registro atual. “Aprovada” indica decisão da proprietária; decisões de im
 
 ## Em revisão
 
-- As 31 entradas e suas preferências ainda precisam ser substituídas ou revisadas pela proprietária antes do compartilhamento público.
+- As 33 entradas e suas preferências ainda precisam ser substituídas ou revisadas pela proprietária antes do compartilhamento público.
 - As URLs definitivas de produtos, experiências e pastas Pinterest ainda não foram informadas.
 
 Não há decisões substituídas registradas até esta edição. Preservar este histórico caso uma decisão seja revista.

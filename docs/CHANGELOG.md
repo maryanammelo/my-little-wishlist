@@ -31,3 +31,6 @@ Alterações relevantes verificadas neste repositório. Este histórico é edito
 - Adicionado o 46º presente: Kit Wella Professionals Oil Reflections Duo, na categoria Beleza.
 - Adicionado o 47º presente: Pijama, na categoria Roupas.
 - Removidos do catálogo 16 cards: livros, casa, acessórios e experiências indicados pela proprietária.
+- Adicionado Piano Digital Yamaha disponível em Eletrônicos e Outros.
+- Removido o card Uma tarde de spa e adicionado Anel Life na categoria Acessórios.
+- Adicionado Anel Life Colors na categoria Acessórios.
