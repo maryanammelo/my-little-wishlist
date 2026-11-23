@@ -117,6 +117,49 @@
   flex-direction: column;
 }
 
+.gift-card--received {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.gift-card--received::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  border-radius: inherit;
+  background: rgb(255 237 242 / 75%);
+  pointer-events: none;
+}
+
+.gift-received-banner {
+  position: absolute;
+  top: 34%;
+  left: -8%;
+  z-index: 3;
+  display: flex;
+  width: 116%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 8px;
+  transform: rotate(-7deg);
+  background: var(--alliance-wine);
+  color: var(--white);
+  font-size: clamp(10px, 1.4vw, 15px);
+  font-weight: 700;
+  letter-spacing: .08em;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.gift-received-banner svg {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 auto;
+}
+
 .gift-image-button {
   display: block;
   position: relative;
@@ -217,6 +260,23 @@
 
 .action-button:hover {
   background: var(--aged-wine);
+}
+
+.action-button--received {
+  background: rgb(188 129 105 / 24%);
+  color: var(--alliance-wine);
+  cursor: default;
+  pointer-events: none;
+}
+
+.action-button--received:hover {
+  background: rgb(188 129 105 / 24%);
+}
+
+.action-button--received svg {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
 }
 
 .image-fallback {

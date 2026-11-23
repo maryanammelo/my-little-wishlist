@@ -64,6 +64,7 @@ const entries = [
     "description": "Siren Gaze Vestido Feminino Elegante de Verão Amarelo - SHEIN Tamanho PP/XS",
     "category": "roupas",
     "favorite": true,
+    "received": true,
     "tags": [
       "vestido",
       "amarelo manteiga",
@@ -516,6 +517,7 @@ const entries = [
     "image": "/images/charm-pendente-paleta-artista-pandora.png",
     "imageAlt": "Charm Pandora prateado em formato de paleta de artista com pedras coloridas",
     "imageFit": "contain",
+    "received": true,
     "productUrl": "https://br.pandora.net/pt/charms/charm-pendente-paleta-de-artista/799320C01.html?product_finding_method=plp"
   },
   {
