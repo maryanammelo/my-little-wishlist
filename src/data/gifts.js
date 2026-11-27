@@ -94,6 +94,7 @@ const entries = [
     "description": "Tamanho 36",
     "category": "sapatos",
     "favorite": true,
+    "received": true,
     "tags": [
       "adidas",
       "samba",
